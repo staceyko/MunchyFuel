@@ -78,6 +78,7 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.10)
     formatador (0.2.5)
+    geocoder (1.2.11)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     google-analytics-rails (0.0.6)
@@ -123,7 +124,6 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    pg (0.18.3)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -250,11 +250,11 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   factory_girl_rails
+  geocoder
   google-analytics-rails
   guard-rspec
   jbuilder (~> 2.0)
   jquery-rails
-  pg
   pry
   rails (= 4.2.0)
   rails_12factor
