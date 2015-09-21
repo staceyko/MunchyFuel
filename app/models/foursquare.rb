@@ -1,4 +1,6 @@
+require 'pry'
 class Foursquare < ActiveRecord::Base
+  include FoodsHelper
   attr_reader :pic_url, :phone_num, :address
   def initialize
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
@@ -11,8 +13,11 @@ class Foursquare < ActiveRecord::Base
   end
 
   def search_venues
-    result = @client.search_venues(:ll => '36.142064,-86.816086', :query => 'Starbucks')
+    random_food = return_food_array.sample
+
+    result = @client.search_venues(:ll => '36.142064,-86.816086', :query => random_food)
     @venues = result["venues"]
+    binding.pry
   end
 
   def pick_random_venue
