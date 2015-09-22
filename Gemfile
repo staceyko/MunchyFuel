@@ -24,6 +24,8 @@ gem 'geocoder'
 
 gem "figaro"
 
+gem "foursquare2"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
