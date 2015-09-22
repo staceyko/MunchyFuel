@@ -5,32 +5,30 @@ class Foursquare < ActiveRecord::Base
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
     self.search_venues
     self.pick_random_venue
-    self.get_pictures
     self.pick_random_picture
-    self.get_phone_num
-    self.get_address
   end
 
   def search_venues
-    # until @venues != []
+    while @venues == nil || @venues == []
       @random_food = return_food_array.sample
-      result = @client.search_venues(:ll => '40.7048872,-74.0123737', :query => @random_food)
-      @venues = result["venues"]
-    # end
+      @result = @client.search_venues(:ll => '40.7048872,-74.0123737', :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 10000)
+      @venues = @result["venues"]
+    end
   end
 
   def pick_random_venue
-    # until get_pictures != []
+    while @photos == nil || @photos["count"] == 0
       @stored_venue = @venues.sample
-    # end
+      get_venue_pictures
+    end
   end
 
-  def get_pictures
-    photo_result = @client.venue_photos(@stored_venue["id"])
+  def get_venue_pictures
+    @photos = @client.venue_photos(@stored_venue["id"])
   end
 
   def pick_random_picture
-    @stored_photo = get_pictures["items"].sample
+    @stored_photo = @photos["items"].sample
 
     photo_id = @stored_photo["id"]
     prefix = @stored_photo["prefix"]
@@ -40,11 +38,15 @@ class Foursquare < ActiveRecord::Base
     @pic_url = "#{prefix}#{width}x#{height}#{suffix}"
   end
 
-  def get_phone_num
+  def phone_num
     @phone_num = @stored_venue["contact"]["formattedPhone"]
   end
 
-  def get_address
+  def address
     @address = @stored_venue["location"]["formattedAddress"]
+  end
+
+  def name
+    @name = @stored_venue["name"]
   end
 end
