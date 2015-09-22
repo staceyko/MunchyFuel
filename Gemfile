@@ -21,7 +21,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 
 gem 'geocoder'
-
+gem 'foursquare2'
 gem "figaro"
 
 # Use ActiveModel has_secure_password
@@ -60,7 +60,7 @@ group :test, :development do
 end
 
 group :production do
-  # gem 'pg'
+  gem 'pg'
   gem 'google-analytics-rails'
   gem 'rails_12factor'
 end
