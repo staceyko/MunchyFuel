@@ -1,5 +1,7 @@
 require 'pry'
 class Foursquare < ActiveRecord::Base
+  has_many :likes
+  has_many :dislikes
   include FoodsHelper
   attr_reader :pic_url, :phone_num, :address
   def initialize
