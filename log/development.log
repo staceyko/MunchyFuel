@@ -4,7 +4,7 @@
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
 Migrating to DeviseCreateUsers (20150921152539)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
   [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
   [1m[35m (0.1ms)[0m              SELECT sql
             FROM sqlite_master
@@ -121,6 +121,42 @@ Migrating to AddNameToUsers (20150921193656)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RemoveVoteFromFoursquares (20150922144824)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TEMPORARY TABLE "afoursquares" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "photo_id" varchar, "vote" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  SELECT * FROM "foursquares"
+  [1m[36m (1.1ms)[0m  [1mDROP TABLE "foursquares"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "foursquares" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "photo_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "afoursquares"[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "afoursquares"
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150922144824"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Migrating to Likes (20150922145145)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Likes (20150922145145)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "likes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "foursquares_id" integer) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150922145145"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to Dislikes (20150922145502)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "dislikes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "foursquares_id" integer) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150922145502"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to RemovePhotoIdFromFoursquares (20150922150501)
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TEMPORARY TABLE "afoursquares" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "photo_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "foursquares"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "foursquares"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "foursquares" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "afoursquares"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "afoursquares"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150922150501"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
 
 
 Started GET "/" for 127.0.0.1 at 2015-09-21 15:47:59 -0400
@@ -17595,20 +17631,29 @@ Foursquare2::APIError - server_error: Foursquare servers are experiencing proble
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   [1m[36m (0.1ms)[0m  [1m            SELECT sql
+>>>>>>> master
             FROM sqlite_master
             WHERE name='index_users_on_reset_password_token' AND type='index'
             UNION ALL
             SELECT sql
             FROM sqlite_temp_master
             WHERE name='index_users_on_reset_password_token' AND type='index'
+<<<<<<< HEAD
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+=======
 [0m
   [1m[35m (0.1ms)[0m              SELECT sql
+>>>>>>> master
             FROM sqlite_master
             WHERE name='index_users_on_email' AND type='index'
             UNION ALL
             SELECT sql
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
+<<<<<<< HEAD
+[0m
+=======
 
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
@@ -17641,3 +17686,4 @@ Started GET "/" for 127.0.0.1 at 2015-09-22 11:52:29 -0400
 Processing by IndexController#show as HTML
   Rendered index/show.html.erb (0.1ms)
 Completed 200 OK in 263ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+>>>>>>> master
