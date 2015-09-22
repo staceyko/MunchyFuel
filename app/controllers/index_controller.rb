@@ -1,5 +1,5 @@
 class IndexController < ActionController::Base
-  def welcome
+  def show
     @foursquare = Foursquare.new
   end
 end
