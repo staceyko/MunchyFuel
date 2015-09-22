@@ -3,6 +3,7 @@ class Foursquare < ActiveRecord::Base
   attr_reader :pic_url, :phone_num, :address
   def initialize
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
+    binding.pry
     self.search_venues
     self.pick_random_venue
     self.pick_random_picture
@@ -11,7 +12,7 @@ class Foursquare < ActiveRecord::Base
   def search_venues
     while @venues == nil || @venues == []
       @random_food = return_food_array.sample
-      @result = @client.search_venues(:ll => '40.7048872,-74.0123737', :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 2000, :limit => 10)
+      @result = @client.search_venues(:ll => '40.7048872,-74.0123737', :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 2000, :limit => 1)
       @venues = @result["venues"]
     end
   end
