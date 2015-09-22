@@ -17628,3 +17628,16 @@ Foursquare2::APIError - server_error: Foursquare servers are experiencing proble
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:52:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.1ms)
+Completed 200 OK in 556ms (Views: 13.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:52:29 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 263ms (Views: 7.4ms | ActiveRecord: 0.0ms)
