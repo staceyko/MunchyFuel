@@ -3,7 +3,6 @@ class Foursquare < ActiveRecord::Base
   attr_reader :pic_url, :phone_num, :address
   def initialize
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
-    binding.pry
     self.search_venues
     self.pick_random_venue
     self.pick_random_picture
