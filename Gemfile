@@ -21,7 +21,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 
 gem 'geocoder'
-
+gem 'foursquare2'
 gem "figaro"
 
 # Use ActiveModel has_secure_password
