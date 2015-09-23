@@ -17726,3 +17726,42 @@ Migrating to FixColumnName (20150923144315)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to ChangeTableName (20150923145129)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (5.4ms)[0m  [1mALTER TABLE "foursquares" RENAME TO "photos"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150923145129"]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Migrating to RenameColumn (20150923145247)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TEMPORARY TABLE "alikes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "photo_id" integer) [0m
+  [1m[35m (2.0ms)[0m  SELECT * FROM "likes"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "likes"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "likes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "photo_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "alikes"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "alikes"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "adislikes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "photo_id" integer) [0m
+  [1m[35m (2.1ms)[0m  SELECT * FROM "dislikes"
+  [1m[36m (0.8ms)[0m  [1mDROP TABLE "dislikes"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "dislikes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "photo_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "adislikes"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "adislikes"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150923145247"]]
+  [1m[35m (5.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
