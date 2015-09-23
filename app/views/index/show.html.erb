@@ -1,7 +1,13 @@
 
 <body>
 <center>
-
+  <style>
+    body {
+     background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
+     background-size: 100% auto;
+     position: center;
+    }
+  </style>
 <%= @foursquare.name %><br>
 <%= @foursquare.phone_num %><br>
 <%= @foursquare.address %>
