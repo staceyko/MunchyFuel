@@ -21,6 +21,7 @@
 @import "bootstrap";
 /* Some Style from the Bootstrap Default Theme */
 body {
+  background-color: red;
   padding-top: 70px;
   padding-bottom: 30px;
 }
@@ -33,4 +34,9 @@ body {
 
 .theme-showcase > p > .btn {
   margin: 5px 0;
+}
+
+#restaurant {
+  display: none;
+  color: white;
 }
