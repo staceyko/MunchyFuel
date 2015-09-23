@@ -1,4 +1,3 @@
-
 <body>
 <center>
   <style>
@@ -16,6 +15,10 @@
 <br>
 <%= button_to "Want", root_path, class: "btn btn-default btn-lg" %>
 <%= button_to "Don't Want", root_path, class: "btn btn-default btn-lg" %>
-<%= button_to "Bad Picture", root_path, class: "btn btn-default btn-lg" %>
+
+<%= form_for @photo do |f| %>
+    <%= f.hidden_field :url, :value => @foursquare.pic_url %>
+    <%= f.submit "Bad Picture", class: "btn btn-default btn-lg" %>
+<% end %>
 </center>
 </body>
