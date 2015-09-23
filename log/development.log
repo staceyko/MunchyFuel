@@ -55296,3 +55296,122 @@ Processing by IndexController#show as HTML
 Completed 200 OK in 390ms (Views: 8.3ms | ActiveRecord: 0.0ms)
 >>>>>>> f84acc3da3aab6f8c18f05100783252fac04a92b
 >>>>>>> fix-loop
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:44:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (2.2ms)
+Completed 200 OK in 283ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:44:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.4ms)
+Completed 200 OK in 201ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:44:53 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 452ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:45:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.9ms)
+Completed 200 OK in 412ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:46:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 1028ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:48:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.5ms)
+Completed 200 OK in 743ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:49:42 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 239ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:33 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.5ms)
+Completed 200 OK in 326ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:36 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 1370ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:39 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 1084ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:42 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 681ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:45 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 284ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:46 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 225ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:48 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 419ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:51 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 354ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:53 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 417ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:55 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 212ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:54:59 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 1128ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 13:55:01 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.1ms)
+Completed 200 OK in 548ms (Views: 9.1ms | ActiveRecord: 0.0ms)
