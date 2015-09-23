@@ -17687,6 +17687,7 @@ Processing by IndexController#show as HTML
   Rendered index/show.html.erb (0.1ms)
 Completed 200 OK in 263ms (Views: 7.4ms | ActiveRecord: 0.0ms)
 >>>>>>> master
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Migrating to AddColumnToFoursquares (20150923144057)
   [1m[35m (0.1ms)[0m  begin transaction
@@ -17765,3 +17766,12 @@ Migrating to RenameColumn (20150923145247)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+=======
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 17:14:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.1ms)
+Completed 200 OK in 289ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+>>>>>>> master
