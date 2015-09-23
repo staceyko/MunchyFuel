@@ -5,8 +5,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  geocoded_by :ip_address,
-  :latitude => :lat, :longitude => :lon
-  after_validation :geocode
+  # geocoded_by :ip_address,
+  # :latitude => :lat, :longitude => :lon
+  # after_validation :geocode
 
 end
