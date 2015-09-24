@@ -60021,9 +60021,208 @@ Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-23 18:11:19 -0400
+<<<<<<< HEAD
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 10:14:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (17.8ms)
+  Rendered photos/new.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 1676ms (Views: 648.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-9830e9f3e3bb9c4631aa258f689ea9db0c9f2ae321427d457ee8d3e598136d12.css?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/application.self-ad12a275b9f9c519a1cdf254a769d8329d55ce584b652b5db0ed64b8cd09ecf6.css?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 10:14:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:40:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (13.4ms)
+  Rendered photos/new.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 1243ms (Views: 569.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-9830e9f3e3bb9c4631aa258f689ea9db0c9f2ae321427d457ee8d3e598136d12.css?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/application.self-ad12a275b9f9c519a1cdf254a769d8329d55ce584b652b5db0ed64b8cd09ecf6.css?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:40:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:40:20 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 1230654ms
+
+NoMethodError - undefined method `venue_id' for #<FoursquareAPI:0x007f855aa2cc90>:
+  app/views/photos/new.html.erb:13:in `_app_views_photos_new_html_erb___2518155997781340734_70105413255540'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Sherri/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+=======
 >>>>>>> bad-picture
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2015-09-24 11:28:21 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by PhotosController#new as HTML
@@ -60058,6 +60257,85 @@ SystemExit - exit:
   app/models/foursquare_api.rb:10:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started GET "/" for 127.0.0.1 at 2015-09-24 10:10:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (14.0ms)
+  Rendered photos/new.html.erb within layouts/application (30.8ms)
+Completed 500 Internal Server Error in 2256ms
+
+Sass::SyntaxError - Invalid CSS after "...-color: #462118": expected "{", was ";":
+  sass (3.4.18) lib/sass/scss/parser.rb:1162:in `expected'
+  sass (3.4.18) lib/sass/scss/parser.rb:1098:in `expected'
+  sass (3.4.18) lib/sass/scss/parser.rb:1093:in `tok!'
+  sass (3.4.18) lib/sass/scss/parser.rb:638:in `block'
+  sass (3.4.18) lib/sass/scss/parser.rb:632:in `ruleset'
+  sass (3.4.18) lib/sass/scss/parser.rb:657:in `block_child'
+  sass (3.4.18) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.18) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.18) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.18) lib/sass/engine.rb:403:in `_to_tree'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.4) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (2.0.1) lib/tilt/template.rb:96:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4223115534822199625_70151402646020'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -60153,6 +60431,7 @@ SystemExit - exit:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/58794360383c3227/variables" for 127.0.0.1 at 2015-09-24 11:35:40 -0400
 
 
@@ -60174,6 +60453,112 @@ SyntaxError - formal argument cannot be an instance variable
   activesupport (4.2.0) lib/active_support/dependencies.rb:184:in `const_missing'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started POST "/__better_errors/9f86625207b27b4f/variables" for 127.0.0.1 at 2015-09-24 10:10:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 10:14:01 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (2.0ms)
+  Rendered photos/new.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 1595ms
+
+Sass::SyntaxError - File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/staceyko/MunchyFuel/app/assets/images
+  /Users/staceyko/MunchyFuel/app/assets/javascripts
+  /Users/staceyko/MunchyFuel/app/assets/stylesheets
+  /Users/staceyko/MunchyFuel/vendor/assets/javascripts
+  /Users/staceyko/MunchyFuel/vendor/assets/stylesheets
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/fonts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.4) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (2.0.1) lib/tilt/template.rb:96:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4223115534822199625_70151402646020'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -60269,6 +60654,7 @@ SyntaxError - formal argument cannot be an instance variable
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/a4750d6455c09a87/variables" for 127.0.0.1 at 2015-09-24 11:35:55 -0400
 
 
@@ -60411,6 +60797,113 @@ SyntaxError - syntax error, unexpected end-of-input, expecting keyword_end:
   activesupport (4.2.0) lib/active_support/dependencies.rb:184:in `const_missing'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started POST "/__better_errors/bf43c66db3c311de/variables" for 127.0.0.1 at 2015-09-24 10:14:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:34:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (16.4ms)
+  Rendered photos/new.html.erb within layouts/application (30.1ms)
+Completed 500 Internal Server Error in 841ms
+
+Sass::SyntaxError - File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/staceyko/MunchyFuel/app/assets/images
+  /Users/staceyko/MunchyFuel/app/assets/javascripts
+  /Users/staceyko/MunchyFuel/app/assets/stylesheets
+  /Users/staceyko/MunchyFuel/vendor/assets/javascripts
+  /Users/staceyko/MunchyFuel/vendor/assets/stylesheets
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/fonts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/staceyko/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.4) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (2.0.1) lib/tilt/template.rb:96:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__432209859008281208_70237029168260'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -60506,6 +60999,7 @@ SyntaxError - syntax error, unexpected end-of-input, expecting keyword_end:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/3608b9612ea4a203/variables" for 127.0.0.1 at 2015-09-24 11:39:54 -0400
 
 
@@ -60525,6 +61019,85 @@ SyntaxError - syntax error, unexpected end-of-input, expecting keyword_end:
   activesupport (4.2.0) lib/active_support/dependencies.rb:184:in `const_missing'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started POST "/__better_errors/db9a097b001927be/variables" for 127.0.0.1 at 2015-09-24 11:34:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:35:42 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.0ms)
+  Rendered photos/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 467ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:36:42 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.4ms)
+  Rendered photos/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 4610ms
+
+Sprockets::FileNotFound - couldn't find file 'bootstrap-sprockets' with type 'application/javascript':
+  sprockets (3.3.4) lib/sprockets/directive_processor.rb:182:in `rescue in block in process_directives'
+  sprockets (3.3.4) lib/sprockets/directive_processor.rb:179:in `block in process_directives'
+  sprockets (3.3.4) lib/sprockets/directive_processor.rb:178:in `process_directives'
+  sprockets (3.3.4) lib/sprockets/directive_processor.rb:83:in `_call'
+  sprockets (3.3.4) lib/sprockets/directive_processor.rb:68:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:137:in `block in javascript_include_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:136:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__432209859008281208_70237058756100'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -60620,6 +61193,7 @@ SyntaxError - syntax error, unexpected end-of-input, expecting keyword_end:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/bd720b858416087e/variables" for 127.0.0.1 at 2015-09-24 11:39:57 -0400
 
 
@@ -61718,6 +62292,635 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   app/models/foursquare_api.rb:36:in `pick_random_picture'
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
+=======
+Started POST "/__better_errors/85d2e1fe10a49b40/variables" for 127.0.0.1 at 2015-09-24 11:36:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:37:25 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (4.4ms)
+  Rendered photos/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 1275ms (Views: 833.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:37:27 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:38:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (5.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (14.5ms)
+  Rendered photos/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 1310ms (Views: 843.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:23 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:38:35 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.5ms)
+  Rendered photos/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1053ms (Views: 134.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:38:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:38:44 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.2ms)
+  Rendered photos/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 705ms (Views: 189.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:38:46 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (0.9ms)
+  Rendered photos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 461ms (Views: 153.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:38:54 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.5ms)
+  Rendered photos/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 508ms (Views: 129.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:39:24 -0400
+Processing by PhotosController#new as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:40:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:41:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (14.6ms)
+  Rendered photos/new.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 1498ms (Views: 865.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.1ms)
+  Rendered photos/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 571ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:10 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:11 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:11 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.1ms)
+  Rendered photos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 466ms (Views: 144.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:41:24 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.2ms)
+  Rendered photos/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 659ms (Views: 208.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:41:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:41:41 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 20ms
+
+NoMethodError - undefined method `pic_url' for nil:NilClass:
+  app/views/photos/new.html.erb:4:in `_app_views_photos_new_html_erb__1549781397722994514_70103003408800'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+>>>>>>> origin
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
@@ -61814,6 +63017,7 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/7cb4885a8a2f32d7/variables" for 127.0.0.1 at 2015-09-24 12:17:14 -0400
 
 
@@ -61848,6 +63052,195 @@ SyntaxError - syntax error, unexpected &&
   activesupport (4.2.0) lib/active_support/dependencies.rb:526:in `load_missing_constant'
   activesupport (4.2.0) lib/active_support/dependencies.rb:184:in `const_missing'
   app/controllers/photos_controller.rb:3:in `new'
+=======
+Started POST "/__better_errors/fa8f3e90f96f540c/variables" for 127.0.0.1 at 2015-09-24 11:41:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:42:00 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.8ms)
+  Rendered photos/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1184ms (Views: 201.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:42:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:42:04 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (0.7ms)
+  Rendered photos/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 2115ms (Views: 305.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:43:10 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.8ms)
+  Rendered photos/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1077ms (Views: 265.6ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:43:11 -0400
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 11:43:12 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BLApjbqebPMYY/IDjCagFHxka2Lq3F9w1lD5XXtISJoEcZPOdjPG7zgLBEJm/gLI6RNhpn5uzqIcRwYMB8wbIw==", "url"=>"https://irs0.4sqi.net/img/general/1920x1440/27160965_I6Xr29f2CavSD91o_yHnk-EmQ9NRrlqdLeZGbvOE66U.jpg", "vote"=>"false", "commit"=>"Bad Picture"}
+Completed 500 Internal Server Error in 681341ms
+
+SystemExit - exit:
+  app/controllers/photos_controller.rb:9:in `create'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:52:in `safe_eval'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:46:in `warning_eval'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:22:in `single_thread_eval'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:13:in `block in thread_safe_eval'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:84:in `allowing_other_threads'
+  byebug (6.0.2) lib/byebug/helpers/eval.rb:13:in `thread_safe_eval'
+  byebug (6.0.2) lib/byebug/processors/command_processor.rb:158:in `run_cmd'
+  byebug (6.0.2) lib/byebug/processors/command_processor.rb:144:in `repl'
+  byebug (6.0.2) lib/byebug/processors/command_processor.rb:95:in `process_commands'
+  byebug (6.0.2) lib/byebug/processors/command_processor.rb:75:in `at_line'
+  byebug (6.0.2) lib/byebug/context.rb:109:in `at_line'
+  app/controllers/photos_controller.rb:9:in `create'
+>>>>>>> origin
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
@@ -61880,7 +63273,11 @@ SyntaxError - syntax error, unexpected &&
   warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
   warden (1.2.3) lib/warden/manager.rb:34:in `call'
   rack (1.6.4) lib/rack/etag.rb:24:in `call'
+<<<<<<< HEAD
   rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+=======
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+>>>>>>> origin
   rack (1.6.4) lib/rack/head.rb:13:in `call'
   actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
   actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
@@ -61944,6 +63341,7 @@ SyntaxError - syntax error, unexpected &&
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/8d3ecaa6a1688f55/variables" for 127.0.0.1 at 2015-09-24 12:18:51 -0400
 
 
@@ -61979,6 +63377,16 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
   activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+=======
+Started POST "/__better_errors/0117c0c21542133a/variables" for 127.0.0.1 at 2015-09-24 11:54:33 -0400
+
+
+Started GET "/photos" for 127.0.0.1 at 2015-09-24 11:55:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound - The action 'index' could not be found for PhotosController:
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -62055,6 +63463,7 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/88b884d886105d3c/variables" for 127.0.0.1 at 2015-09-24 12:19:03 -0400
 
 
@@ -62108,6 +63517,15 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
   activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+=======
+Started POST "/__better_errors/edc55f648053fbd9/variables" for 127.0.0.1 at 2015-09-24 11:55:24 -0400
+
+
+Started GET "/photos" for 127.0.0.1 at 2015-09-24 11:56:51 -0400
+
+AbstractController::ActionNotFound - The action 'index' could not be found for PhotosController:
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -62168,6 +63586,7 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   thin (1.6.4) lib/thin/server.rb:162:in `start'
   rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
   rack (1.6.4) lib/rack/server.rb:286:in `start'
+<<<<<<< HEAD
   railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
   railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
   railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
@@ -62219,6 +63638,31 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
   activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+=======
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+Started POST "/__better_errors/c8dfa6bd247f129e/variables" for 127.0.0.1 at 2015-09-24 11:56:51 -0400
+
+
+Started GET "/photos" for 127.0.0.1 at 2015-09-24 11:56:53 -0400
+
+AbstractController::ActionNotFound - The action 'index' could not be found for PhotosController:
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -62295,6 +63739,7 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/17c45c861a13c58e/variables" for 127.0.0.1 at 2015-09-24 12:27:40 -0400
 
 
@@ -62339,6 +63784,15 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
   actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
   activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+=======
+Started POST "/__better_errors/fe76304ebc4aad3c/variables" for 127.0.0.1 at 2015-09-24 11:56:53 -0400
+
+
+Started GET "/photos" for 127.0.0.1 at 2015-09-24 11:56:54 -0400
+
+AbstractController::ActionNotFound - The action 'index' could not be found for PhotosController:
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -62415,6 +63869,7 @@ NoMethodError - undefined method `vote' for #<ActiveRecord::Relation []>:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/26d2e9a6ef701a78/variables" for 127.0.0.1 at 2015-09-24 12:28:46 -0400
 
 
@@ -62437,6 +63892,234 @@ NoMethodError - undefined method `vote' for #<Photo::ActiveRecord_Relation:0x007
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started POST "/__better_errors/f2615a4b6fd1f19a/variables" for 127.0.0.1 at 2015-09-24 11:56:54 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:57:01 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (17.0ms)
+  Rendered photos/new.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 1603ms (Views: 961.7ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 11:57:38 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (2.7ms)
+  Rendered photos/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 1359ms (Views: 281.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 11:57:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:00:57 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (6.5ms)
+  Rendered photos/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 666ms (Views: 205.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 12:00:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:01:18 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.0ms)
+  Rendered photos/_dislikes.html.erb (9.7ms)
+  Rendered photos/new.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 504ms
+
+ArgumentError - First argument in form cannot contain nil or be empty:
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:432:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141365800920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -62521,6 +64204,7 @@ NoMethodError - undefined method `vote' for #<Photo::ActiveRecord_Relation:0x007
   railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
   railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
   railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+<<<<<<< HEAD
   bin/rails:8:in `<top (required)>'
   spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
   spring (1.4.0) lib/spring/client/command.rb:7:in `call'
@@ -62605,11 +64289,63 @@ Sass::SyntaxError - Invalid CSS after "...-color: #462118": expected "{", was ";
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2151945892858179473_70304808117920'
+=======
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+Started POST "/__better_errors/9a3a0ddb427d5ee1/variables" for 127.0.0.1 at 2015-09-24 12:01:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:01:46 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.4ms)
+  Rendered photos/_dislikes.html.erb (2.8ms)
+  Rendered photos/new.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 363ms
+
+ArgumentError - First argument in form cannot contain nil or be empty:
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:432:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
   activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+<<<<<<< HEAD
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+=======
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141365800920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
   actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
@@ -62623,7 +64359,11 @@ Sass::SyntaxError - Invalid CSS after "...-color: #462118": expected "{", was ";
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   /Users/georgetoothman/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+=======
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+>>>>>>> origin
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -62726,6 +64466,7 @@ Sass::SyntaxError - Invalid CSS after "...-color: #462118": expected "{", was ";
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/1c79b4813232f0e5/variables" for 127.0.0.1 at 2015-09-24 12:33:49 -0400
 
 
@@ -62806,11 +64547,52 @@ Load paths:
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2151945892858179473_70304808117920'
+=======
+Started POST "/__better_errors/bf66b5f3b12b7a79/variables" for 127.0.0.1 at 2015-09-24 12:01:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:05:10 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.6ms)
+  Rendered photos/_dislikes.html.erb (2.5ms)
+  Rendered photos/new.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 634ms
+
+ArgumentError - First argument in form cannot contain nil or be empty:
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:432:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
   activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+<<<<<<< HEAD
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+=======
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141365800920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
   actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
@@ -62824,7 +64606,11 @@ Load paths:
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   /Users/georgetoothman/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+=======
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+>>>>>>> origin
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -62927,6 +64713,7 @@ Load paths:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/cc22dc4ce5aee749/variables" for 127.0.0.1 at 2015-09-24 12:34:34 -0400
 
 
@@ -63007,11 +64794,52 @@ Load paths:
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2151945892858179473_70304808117920'
+=======
+Started POST "/__better_errors/9d0deb70f8a54eee/variables" for 127.0.0.1 at 2015-09-24 12:05:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:09:08 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (6.9ms)
+  Rendered photos/_dislikes.html.erb (7.1ms)
+  Rendered photos/new.html.erb within layouts/application (22.6ms)
+Completed 500 Internal Server Error in 385ms
+
+ArgumentError - First argument in form cannot contain nil or be empty:
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:432:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
   activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+<<<<<<< HEAD
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+=======
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141365800920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
   actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
@@ -63025,7 +64853,11 @@ Load paths:
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   /Users/georgetoothman/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+=======
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+>>>>>>> origin
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -63128,6 +64960,7 @@ Load paths:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/dc5377e4be044347/variables" for 127.0.0.1 at 2015-09-24 12:34:36 -0400
 
 
@@ -63174,11 +65007,52 @@ Sprockets::FileNotFound - couldn't find file 'bootstrap-sprockets' with type 'ap
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:137:in `block in javascript_include_tag'
   sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:136:in `javascript_include_tag'
   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2151945892858179473_70304808117920'
+=======
+Started POST "/__better_errors/512512d5571a9108/variables" for 127.0.0.1 at 2015-09-24 12:09:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:09:10 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.3ms)
+  Rendered photos/_dislikes.html.erb (4.0ms)
+  Rendered photos/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 311ms
+
+ArgumentError - First argument in form cannot contain nil or be empty:
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:432:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
   activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
   actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+<<<<<<< HEAD
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+=======
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141365800920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+>>>>>>> origin
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
   actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
   actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
@@ -63192,7 +65066,11 @@ Sprockets::FileNotFound - couldn't find file 'bootstrap-sprockets' with type 'ap
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   /Users/georgetoothman/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+=======
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+>>>>>>> origin
   activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -63295,6 +65173,7 @@ Sprockets::FileNotFound - couldn't find file 'bootstrap-sprockets' with type 'ap
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/88869791f43e858b/variables" for 127.0.0.1 at 2015-09-24 12:34:47 -0400
 
 
@@ -63431,6 +65310,17 @@ NoMethodError - undefined method `vote' for nil:NilClass:
   app/models/foursquare_api.rb:50:in `pick_random_picture'
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
+=======
+Started POST "/__better_errors/5844a711157ccfc9/variables" for 127.0.0.1 at 2015-09-24 12:09:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:15:22 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 818ms
+
+NoMethodError - undefined method `dislike' for #<Class:0x007f96222cce18>:
+  activerecord (4.2.0) lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+  app/controllers/photos_controller.rb:5:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
@@ -63527,6 +65417,114 @@ NoMethodError - undefined method `vote' for nil:NilClass:
 
 
 
+Started POST "/__better_errors/eb37289a04ac56b8/variables" for 127.0.0.1 at 2015-09-24 12:15:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:15:36 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 409ms
+
+NoMethodError - undefined method `dislikes' for #<Class:0x007f961e0612e0>:
+  activerecord (4.2.0) lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+  app/controllers/photos_controller.rb:5:in `new'
+>>>>>>> origin
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+<<<<<<< HEAD
 Started POST "/__better_errors/df6ee2eedddb44b1/variables" for 127.0.0.1 at 2015-09-24 12:36:06 -0400
   [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs1.4sqi.net/img/general/960x716/263293_Vds1VEpeup4qm0M6VPT8WWMFMI299cFm7KMEKpdFLAM.jpg"]]
 
@@ -63745,6 +65743,142 @@ NoMethodError - undefined method `vote' for nil:NilClass:
   app/models/foursquare_api.rb:50:in `pick_random_picture'
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
+=======
+Started POST "/__better_errors/0b1b82072ad7a5c2/variables" for 127.0.0.1 at 2015-09-24 12:15:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:15:49 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 441ms
+
+NoMethodError - undefined method `Dislike' for #<Class:0x007f961a7dd360>:
+  activerecord (4.2.0) lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+  app/controllers/photos_controller.rb:5:in `new'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+>>>>>>> origin
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+<<<<<<< HEAD
+Started POST "/__better_errors/713d9463e6826d5f/variables" for 127.0.0.1 at 2015-09-24 12:00:50 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:00:53 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 348ms
+
+Foursquare2::APIError - param_error: Value photos is invalid for venue id (400):
+  foursquare2 (2.0.2) lib/foursquare2/client.rb:87:in `return_error_or_body'
+  foursquare2 (2.0.2) lib/foursquare2/photos.rb:43:in `venue_photos'
+  app/models/foursquare_api.rb:34:in `get_venue_pictures'
+  app/models/foursquare_api.rb:28:in `search_venues'
+  app/models/foursquare_api.rb:8:in `initialize'
+  app/controllers/photos_controller.rb:3:in `new'
+=======
+Started POST "/__better_errors/8b72fe414f0a9460/variables" for 127.0.0.1 at 2015-09-24 12:15:50 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:16:23 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 2842ms
+
+NoMethodError - undefined method `dislike' for #<Class:0x007f961fb14e70>:
+  activerecord (4.2.0) lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+  app/controllers/photos_controller.rb:5:in `new'
+>>>>>>> origin
+>>>>>>> origin
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
@@ -63841,6 +65975,7 @@ NoMethodError - undefined method `vote' for nil:NilClass:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/9ca2d1a1a3941a81/variables" for 127.0.0.1 at 2015-09-24 12:41:46 -0400
   [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs1.4sqi.net/img/general/768x576/6908297_7tUEcjwUChC2BVKioaw9xhw0buwrKM-_Flp0F285vJ0.jpg"]]
 
@@ -64125,6 +66260,82 @@ SystemExit - exit:
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+<<<<<<< HEAD
+Started POST "/__better_errors/681e54c5028dfca6/variables" for 127.0.0.1 at 2015-09-24 12:00:54 -0400
+
+
+Started POST "/__better_errors/681e54c5028dfca6/eval" for 127.0.0.1 at 2015-09-24 12:00:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:01:17 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 1392ms
+
+NoMethodError - undefined method `venue_id' for #<FoursquareAPI:0x007f855f53c398>:
+  app/views/photos/new.html.erb:13:in `_app_views_photos_new_html_erb___2518155997781340734_70105413255540'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Sherri/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+=======
+Started POST "/__better_errors/cef5898515226384/variables" for 127.0.0.1 at 2015-09-24 12:16:26 -0400
+
+
+Started POST "/__better_errors/cef5898515226384/eval" for 127.0.0.1 at 2015-09-24 12:19:22 -0400
+  [1m[35mPhoto Load (3.0ms)[0m  SELECT "photos".* FROM "photos"
+
+
+Started POST "/__better_errors/cef5898515226384/eval" for 127.0.0.1 at 2015-09-24 12:19:29 -0400
+  [1m[36mPhoto Load (0.3ms)[0m  [1mSELECT  "photos".* FROM "photos"  ORDER BY "photos"."id" DESC LIMIT 1[0m
+
+
+Started POST "/__better_errors/cef5898515226384/eval" for 127.0.0.1 at 2015-09-24 12:19:34 -0400
+
+
+Started POST "/__better_errors/cef5898515226384/eval" for 127.0.0.1 at 2015-09-24 12:20:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:20:24 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 266ms
+
+NoMethodError - undefined method `dislikes' for #<Class:0x007f961a5cd610>:
+  activerecord (4.2.0) lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+  app/controllers/photos_controller.rb:5:in `new'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+>>>>>>> origin
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -64220,6 +66431,7 @@ SystemExit - exit:
 
 
 
+<<<<<<< HEAD
 Started POST "/__better_errors/021a5081130f4f7e/variables" for 127.0.0.1 at 2015-09-24 12:47:33 -0400
 
 
@@ -64358,6 +66570,85 @@ NoMethodError - undefined method `vote' for nil:NilClass:
   app/models/foursquare_api.rb:9:in `initialize'
   app/controllers/photos_controller.rb:3:in `new'
   actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+<<<<<<< HEAD
+Started POST "/__better_errors/93c4b608a42d38f2/variables" for 127.0.0.1 at 2015-09-24 12:01:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:05:15 -0400
+Processing by PhotosController#new as HTML
+Completed 500 Internal Server Error in 819ms
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/foursquare_api.rb:14:in `initialize'
+  app/controllers/photos_controller.rb:3:in `new'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+=======
+Started POST "/__better_errors/9ba5525f29b799b5/variables" for 127.0.0.1 at 2015-09-24 12:20:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:21:21 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.4ms)
+  Rendered photos/_dislikes.html.erb (21.7ms)
+  Rendered photos/new.html.erb within layouts/application (28.5ms)
+Completed 500 Internal Server Error in 332ms
+
+NoMethodError - undefined method `dislikes_path' for #<#<Class:0x007f961fb5ffb0>:0x007f961fb5c158>:
+  actionpack (4.2.0) lib/action_dispatch/routing/polymorphic_routes.rb:220:in `polymorphic_method'
+  actionpack (4.2.0) lib/action_dispatch/routing/polymorphic_routes.rb:134:in `polymorphic_path'
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:466:in `apply_form_for_options!'
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:434:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141377327020'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141376706360'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
   actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
   actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
@@ -64453,6 +66744,191 @@ NoMethodError - undefined method `vote' for nil:NilClass:
 
 
 
+<<<<<<< HEAD
+Started POST "/__better_errors/19634cccaf4ad224/variables" for 127.0.0.1 at 2015-09-24 12:05:16 -0400
+
+
+Started POST "/__better_errors/19634cccaf4ad224/eval" for 127.0.0.1 at 2015-09-24 12:05:23 -0400
+
+
+Started POST "/__better_errors/19634cccaf4ad224/eval" for 127.0.0.1 at 2015-09-24 12:05:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:05:46 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 432ms
+
+NoMethodError - undefined method `venue_id' for #<FoursquareAPI:0x007f855f5f64f0>:
+  app/views/photos/new.html.erb:13:in `_app_views_photos_new_html_erb___2518155997781340734_70105413255540'
+=======
+Started POST "/__better_errors/d3d9e3a14a897b57/variables" for 127.0.0.1 at 2015-09-24 12:21:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:22:25 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.2ms)
+  Rendered photos/_dislikes.html.erb (4.0ms)
+  Rendered photos/new.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 218ms
+
+NoMethodError - undefined method `photo_id' for #<FoursquareAPI:0x007f961ff0ff70>:
+  app/views/photos/_dislikes.html.erb:2:in `block in _app_views_photos__dislikes_html_erb__3869037169064801527_70141335134240'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:200:in `with_output_buffer'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:444:in `form_for'
+  app/views/photos/_dislikes.html.erb:1:in `_app_views_photos__dislikes_html_erb__3869037169064801527_70141335134240'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/photos/new.html.erb:28:in `_app_views_photos_new_html_erb___2894427068096502055_70141376706360'
+>>>>>>> origin
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
+  /Users/Sherri/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+=======
+  /Users/staceyko/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+>>>>>>> origin
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+>>>>>>> origin
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+<<<<<<< HEAD
 Started POST "/__better_errors/49c4e0d6b9782285/variables" for 127.0.0.1 at 2015-09-24 12:48:23 -0400
   [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs0.4sqi.net/img/general/720x540/3KkUyCdTcxspol-CK37fx_pUxP8A5YJFOc9awf28TA0.jpg"]]
 
@@ -64860,3 +67336,394 @@ Processing by PhotosController#new as HTML
 Completed 200 OK in 875ms (Views: 496.6ms | ActiveRecord: 0.4ms)
   [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT  "photos".* FROM "photos"  ORDER BY "photos"."id" DESC LIMIT 1[0m
   [1m[35mPhoto Load (0.4ms)[0m  SELECT  "photos".* FROM "photos"  ORDER BY "photos"."id" DESC LIMIT 1
+=======
+<<<<<<< HEAD
+Started POST "/__better_errors/e42dfdaacdaa8e12/variables" for 127.0.0.1 at 2015-09-24 12:05:47 -0400
+
+
+Started POST "/__better_errors/e42dfdaacdaa8e12/eval" for 127.0.0.1 at 2015-09-24 12:11:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:12:03 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (2.7ms)
+  Rendered photos/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 562ms (Views: 149.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home.self-9830e9f3e3bb9c4631aa258f689ea9db0c9f2ae321427d457ee8d3e598136d12.css?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/application.self-ad12a275b9f9c519a1cdf254a769d8329d55ce584b652b5db0ed64b8cd09ecf6.css?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 12:12:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:32:13 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.2ms)
+  Rendered photos/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1215ms (Views: 173.6ms | ActiveRecord: 0.7ms)
+=======
+Started POST "/__better_errors/9e5a67fd7384f23f/variables" for 127.0.0.1 at 2015-09-24 12:22:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:23:11 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (5.5ms)
+  Rendered photos/_dislikes.html.erb (1.0ms)
+  Rendered photos/_likes.html.erb (0.9ms)
+  Rendered photos/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 701ms (Views: 312.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/__better_errors/9e5a67fd7384f23f/eval" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:23:33 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (2.1ms)
+  Rendered photos/_dislikes.html.erb (0.9ms)
+  Rendered photos/_likes.html.erb (0.7ms)
+  Rendered photos/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 516ms (Views: 183.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 12:23:34 -0400
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 12:23:36 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mU9xz8+r5N+x4/hVTKQIBx+f0yIE4uG68VpZZBCuvMmZjsuMAwZOw5GLDhSmfKrbiujZ5pBQcGg7TaY1bCrvcA==", "url"=>"https://irs0.4sqi.net/img/general/2880x1920/40153931_Tv6eCWWvuik2k8k5HGI9BaGNrp70GBRvkPuMhq_uSqk.jpg", "commit"=>"Don't Want"}
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:27:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (15.5ms)
+  Rendered photos/_dislikes.html.erb (1.1ms)
+  Rendered photos/_likes.html.erb (1.6ms)
+  Rendered photos/new.html.erb within layouts/application (42.2ms)
+Completed 200 OK in 1557ms (Views: 1019.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 12:27:46 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UIW2SpkRuASJzu35UWd18pYbFtNx9DwOiTkpK+k/haBQRAwJVbwSGKmmG7i7v9cuA2wcF+VGrdxDLtZ6lbvWGQ==", "url"=>"https://irs0.4sqi.net/img/general/2000x1333/94098268_1yqCE5j5zqigYtCYfPcNgk3ir9c0-CMi1LAZymehoX8.jpg", "commit"=>"Don't Want"}
+  [1m[35mPhoto Load (5.0ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs0.4sqi.net/img/general/2000x1333/94098268_1yqCE5j5zqigYtCYfPcNgk3ir9c0-CMi1LAZymehoX8.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.1ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs0.4sqi.net/img/general/2000x1333/94098268_1yqCE5j5zqigYtCYfPcNgk3ir9c0-CMi1LAZymehoX8.jpg"], ["created_at", "2015-09-24 16:27:46.167941"], ["updated_at", "2015-09-24 16:27:46.167941"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "dislikes" ("photo_id") VALUES (?)[0m  [["photo_id", 8]]
+  [1m[35m (3.4ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:28:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (13.7ms)
+  Rendered photos/_dislikes.html.erb (1.0ms)
+  Rendered photos/_likes.html.erb (1.1ms)
+  Rendered photos/new.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 2116ms (Views: 890.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 12:29:00 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/_bad_picture.html.erb (1.3ms)
+  Rendered photos/_dislikes.html.erb (0.5ms)
+  Rendered photos/_likes.html.erb (0.6ms)
+  Rendered photos/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 571ms (Views: 220.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/home.self-4dcfc3bbaff9a07f7b2bef7e3a2984895f18d72fb6804c6866e4a1c14032c1cf.css?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/show.self-1c40ce7dac1278ece48e2cde6d179a468522b1fb72fce34ccd9b169b2ff4df21.css?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/application.self-269de63f7531936326f65fbe026e329140d2460187052afe692d0b002ba6c0ca.css?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/geolocation.self-cc721cc2c9b91c506a259a133fe9e8e7e4695961c2897a63fc2508c438d4b59a.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 12:29:01 -0400
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 12:29:02 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q1qqS/pkt/XKY2CL2q9QVF1zEoULNzLEgDslMlMjhgBDmxAINskd6eoLlsowd/KIyAQYQZ+FoxZKLNpjL6fVuQ==", "url"=>"https://irs1.4sqi.net/img/general/1920x1440/46961157_ZNNQhaMSaAv_pTz_e-2ALwStVnmgAEgB3DKhlPn-jxU.jpg", "commit"=>"Want"}
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46961157_ZNNQhaMSaAv_pTz_e-2ALwStVnmgAEgB3DKhlPn-jxU.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46961157_ZNNQhaMSaAv_pTz_e-2ALwStVnmgAEgB3DKhlPn-jxU.jpg"], ["created_at", "2015-09-24 16:29:02.914613"], ["updated_at", "2015-09-24 16:29:02.914613"]]
+  [1m[36m (6.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "likes" ("photo_id") VALUES (?)[0m  [["photo_id", 9]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mLike Load (0.2ms)[0m  [1mSELECT "likes".* FROM "likes" WHERE "likes"."photo_id" = ?[0m  [["photo_id", 9]]
+>>>>>>> origin
+>>>>>>> origin

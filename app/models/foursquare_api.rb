@@ -1,7 +1,7 @@
 class FoursquareAPI
   include FoodsHelper
 
-  attr_reader :pic_url, :phone_num, :address, :name
+  attr_reader :pic_url, :phone_num, :address, :name, :venue_id, :delivery_url
 
   def initialize
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
@@ -10,6 +10,8 @@ class FoursquareAPI
     @phone_num = @venue["contact"]["formattedPhone"]
     @address = @venue["location"]["formattedAddress"]
     @name = @venue["name"]
+    @venue_id = @venue["id"]
+    @delivery_url = @venue["delivery"]["url"] if @venue["delivery"]
   end
 
   def search_venues
