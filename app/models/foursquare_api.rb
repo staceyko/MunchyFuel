@@ -25,28 +25,24 @@ class FoursquareAPI
       end
 
       get_venue_pictures
-      @venue = nil unless @photos.count >= 1
     end
   end
 
   def get_venue_pictures
     @photos = @client.venue_photos(@venue["id"])["items"].select{|picture| picture["width"] > picture["height"]}
     if @photos == []
-      search_venues
+      @venue = nil
     else
       pick_random_picture
     end
   end
 
   def pick_random_picture
+    @stored_photo = nil
     while @stored_photo == nil
       @stored_photo = @photos.sample
       @pic_url = create_photo_url(@stored_photo)
-      if bad_photo(@pic_url)
-        @venue = nil
-        @stored_photo = nil
-        search_venues
-      end
+      @venue = nil if bad_photo(@pic_url)
     end
   end
 
