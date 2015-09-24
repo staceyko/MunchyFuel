@@ -55,7 +55,7 @@ class FoursquareAPI
 
   def is_bad_photo_true?
     if bad_photo == true
-      @pic_url = ""
+      pick_random_picture
     end
   end
 

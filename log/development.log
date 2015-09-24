@@ -67727,3 +67727,270 @@ Processing by PhotosController#create as HTML
   [1m[36mLike Load (0.2ms)[0m  [1mSELECT "likes".* FROM "likes" WHERE "likes"."photo_id" = ?[0m  [["photo_id", 9]]
 >>>>>>> origin
 >>>>>>> origin
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (2.4ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs0.4sqi.net/img/general/1920x1440/21387947_4YB-bu3Z6Jvj3gooLxKIu_XLMWOAy78vLgzIH18Cc9I.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs0.4sqi.net/img/general/1920x1440/21387947_4YB-bu3Z6Jvj3gooLxKIu_XLMWOAy78vLgzIH18Cc9I.jpg"]]
+  Rendered photos/_bad_picture.html.erb (15.6ms)
+  Rendered photos/_dislikes.html.erb (1.1ms)
+  Rendered photos/_likes.html.erb (0.9ms)
+  Rendered photos/new.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 4968ms (Views: 2774.2ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:10 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs0.4sqi.net/img/general/960x720/16882411_c6Rrjjo9RfTtLdgoEGU5nVenpvRs6ICpyJzrtVQ5TFQ.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs0.4sqi.net/img/general/960x720/16882411_c6Rrjjo9RfTtLdgoEGU5nVenpvRs6ICpyJzrtVQ5TFQ.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.9ms)
+  Rendered photos/_dislikes.html.erb (0.4ms)
+  Rendered photos/_likes.html.erb (0.5ms)
+  Rendered photos/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1817ms (Views: 165.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:12 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/960x720/76909946_80keNsRHBWpghAzc_hpnQtsWK2Tx6JdDZQBPuFbWsEo.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/76909946_80keNsRHBWpghAzc_hpnQtsWK2Tx6JdDZQBPuFbWsEo.jpg"]]
+  Rendered photos/_bad_picture.html.erb (1.4ms)
+  Rendered photos/_dislikes.html.erb (0.8ms)
+  Rendered photos/_likes.html.erb (0.6ms)
+  Rendered photos/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 426ms (Views: 222.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:13 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.3ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/959x717/56677782_XVB3BD4osv2tWmcERJUvW_Bo6ZNoJQpgO4UkQ-FjIB8.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/959x717/56677782_XVB3BD4osv2tWmcERJUvW_Bo6ZNoJQpgO4UkQ-FjIB8.jpg"]]
+  Rendered photos/_bad_picture.html.erb (1.8ms)
+  Rendered photos/_dislikes.html.erb (5.1ms)
+  Rendered photos/_likes.html.erb (0.5ms)
+  Rendered photos/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 382ms (Views: 182.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-6678855951a29ee1a513df633cff3865b9351f549596061752b9a520dca38c33.css?body=1" for 127.0.0.1 at 2015-09-24 13:43:13 -0400
+
+
+Started GET "/assets/application.self-a52c6fe0d01a7d460ab8cd359393562182a0ba1c37cbfb441d4cd259bce8753c.css?body=1" for 127.0.0.1 at 2015-09-24 13:43:13 -0400
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:17 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h9hiCQIWuo9S0qTBrF70UigYgln/bfrv/k877KILUp+HGdhKzrsQk3K6UoBGhlaOvW+InWvfaz00WMS93o8BJg==", "url"=>"https://irs2.4sqi.net/img/general/959x717/56677782_XVB3BD4osv2tWmcERJUvW_Bo6ZNoJQpgO4UkQ-FjIB8.jpg", "commit"=>"Don't Want"}
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs2.4sqi.net/img/general/959x717/56677782_XVB3BD4osv2tWmcERJUvW_Bo6ZNoJQpgO4UkQ-FjIB8.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs2.4sqi.net/img/general/959x717/56677782_XVB3BD4osv2tWmcERJUvW_Bo6ZNoJQpgO4UkQ-FjIB8.jpg"], ["created_at", "2015-09-24 17:43:17.799289"], ["updated_at", "2015-09-24 17:43:17.799289"]]
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "dislikes" ("photo_id") VALUES (?)[0m  [["photo_id", 11]]
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 32ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:17 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs3.4sqi.net/img/general/960x717/6567746_diXtmLZ243X7cEH0P8pGTroU9XfXnHE_KCfxadURFT8.jpg"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs3.4sqi.net/img/general/960x717/6567746_diXtmLZ243X7cEH0P8pGTroU9XfXnHE_KCfxadURFT8.jpg"]]
+  Rendered photos/_bad_picture.html.erb (1.0ms)
+  Rendered photos/_dislikes.html.erb (0.5ms)
+  Rendered photos/_likes.html.erb (0.4ms)
+  Rendered photos/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 355ms (Views: 131.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:21 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CPMiZ3MNSdAZQLj4hW6KrAyFob9mJLa8bMSwYWUO/hoIMpgkv6DjzDkoTrlvtihwmfKre/KWJ26m008wGYqtow==", "url"=>"https://irs3.4sqi.net/img/general/960x717/6567746_diXtmLZ243X7cEH0P8pGTroU9XfXnHE_KCfxadURFT8.jpg", "commit"=>"Want"}
+  [1m[36mPhoto Load (1.0ms)[0m  [1mSELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1[0m  [["url", "https://irs3.4sqi.net/img/general/960x717/6567746_diXtmLZ243X7cEH0P8pGTroU9XfXnHE_KCfxadURFT8.jpg"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://irs3.4sqi.net/img/general/960x717/6567746_diXtmLZ243X7cEH0P8pGTroU9XfXnHE_KCfxadURFT8.jpg"], ["created_at", "2015-09-24 17:43:21.326248"], ["updated_at", "2015-09-24 17:43:21.326248"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "likes" ("photo_id") VALUES (?)  [["photo_id", 12]]
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:21 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46032778_RICZGSmZzRtezGTSJRpwzb5hS8LbB_6n-sk_xJcMcXI.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46032778_RICZGSmZzRtezGTSJRpwzb5hS8LbB_6n-sk_xJcMcXI.jpg"]]
+  Rendered photos/_bad_picture.html.erb (1.8ms)
+  Rendered photos/_dislikes.html.erb (0.4ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 678ms (Views: 113.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:24 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hGfzyn9WKhoPOuYSpY+id/hK0j61NKrPshzMAk5fXP+EpkmJs/uABi9SEFNPVwCrbT3Y+iGGOx14CzNTMtsPRg==", "url"=>"https://irs1.4sqi.net/img/general/1920x1440/46032778_RICZGSmZzRtezGTSJRpwzb5hS8LbB_6n-sk_xJcMcXI.jpg", "vote"=>"false", "commit"=>"Bad Picture"}
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46032778_RICZGSmZzRtezGTSJRpwzb5hS8LbB_6n-sk_xJcMcXI.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs1.4sqi.net/img/general/1920x1440/46032778_RICZGSmZzRtezGTSJRpwzb5hS8LbB_6n-sk_xJcMcXI.jpg"], ["created_at", "2015-09-24 17:43:24.036049"], ["updated_at", "2015-09-24 17:43:24.036049"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "photos" SET "vote" = ?, "updated_at" = ? WHERE "photos"."id" = ?[0m  [["vote", "f"], ["updated_at", "2015-09-24 17:43:24.042690"], ["id", 13]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:24 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs3.4sqi.net/img/general/641x481/7467874_RHGdl_6Zm7D5z5Sy4xpbYUr6OZwwYZPmGfrVOnOiYd0.jpg"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs3.4sqi.net/img/general/641x481/7467874_RHGdl_6Zm7D5z5Sy4xpbYUr6OZwwYZPmGfrVOnOiYd0.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.9ms)
+  Rendered photos/_dislikes.html.erb (0.4ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 879ms (Views: 172.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:32 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bQLbD7ZMdpnk6Ofox3zedBxbERHnXt+rWtFBKyDBOONtw2FMeuHchcSAEaktpHyoiSwb1XPsTnmQxr56XEVrWg==", "url"=>"https://irs3.4sqi.net/img/general/641x481/7467874_RHGdl_6Zm7D5z5Sy4xpbYUr6OZwwYZPmGfrVOnOiYd0.jpg", "commit"=>"Want"}
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1[0m  [["url", "https://irs3.4sqi.net/img/general/641x481/7467874_RHGdl_6Zm7D5z5Sy4xpbYUr6OZwwYZPmGfrVOnOiYd0.jpg"]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://irs3.4sqi.net/img/general/641x481/7467874_RHGdl_6Zm7D5z5Sy4xpbYUr6OZwwYZPmGfrVOnOiYd0.jpg"], ["created_at", "2015-09-24 17:43:33.004963"], ["updated_at", "2015-09-24 17:43:33.004963"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "likes" ("photo_id") VALUES (?)  [["photo_id", 14]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:33 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/959x717/51356625_ydCFWAlHhbje6BpkPKwF6sD3QNgFSE39p_RuCDQrPXs.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/959x717/51356625_ydCFWAlHhbje6BpkPKwF6sD3QNgFSE39p_RuCDQrPXs.jpg"]]
+  Rendered photos/_bad_picture.html.erb (5.5ms)
+  Rendered photos/_dislikes.html.erb (0.8ms)
+  Rendered photos/_likes.html.erb (3.9ms)
+  Rendered photos/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 412ms (Views: 162.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:35 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GDpsxNwYdU2dks50ZUie1kDgp4hi/DTqWg3Q8A6uv3wY+9aHELXfUb36ODWPkDwK1ZetTPZOpTiQGi+hcirsxQ==", "url"=>"https://irs2.4sqi.net/img/general/959x717/51356625_ydCFWAlHhbje6BpkPKwF6sD3QNgFSE39p_RuCDQrPXs.jpg", "commit"=>"Don't Want"}
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs2.4sqi.net/img/general/959x717/51356625_ydCFWAlHhbje6BpkPKwF6sD3QNgFSE39p_RuCDQrPXs.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs2.4sqi.net/img/general/959x717/51356625_ydCFWAlHhbje6BpkPKwF6sD3QNgFSE39p_RuCDQrPXs.jpg"], ["created_at", "2015-09-24 17:43:35.139818"], ["updated_at", "2015-09-24 17:43:35.139818"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dislikes" ("photo_id") VALUES (?)[0m  [["photo_id", 15]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:35 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs3.4sqi.net/img/general/960x540/741736_HTV20pRK8pjZfEz_PRg39cPyYTkb2ITsrpW5maQe_GA.jpg"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs3.4sqi.net/img/general/960x540/741736_HTV20pRK8pjZfEz_PRg39cPyYTkb2ITsrpW5maQe_GA.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.8ms)
+  Rendered photos/_dislikes.html.erb (0.3ms)
+  Rendered photos/_likes.html.erb (0.4ms)
+  Rendered photos/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 358ms (Views: 142.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:44 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x2AMMqLCTvBFKIWixd1knvcbmHivrFOq815uqzdpgGDHobZxbm/k7GVAc+MvBcZCYmySvDsewng5SZH6S+3T2Q==", "url"=>"https://irs3.4sqi.net/img/general/960x540/741736_HTV20pRK8pjZfEz_PRg39cPyYTkb2ITsrpW5maQe_GA.jpg", "vote"=>"false", "commit"=>"Bad Picture"}
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1[0m  [["url", "https://irs3.4sqi.net/img/general/960x540/741736_HTV20pRK8pjZfEz_PRg39cPyYTkb2ITsrpW5maQe_GA.jpg"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://irs3.4sqi.net/img/general/960x540/741736_HTV20pRK8pjZfEz_PRg39cPyYTkb2ITsrpW5maQe_GA.jpg"], ["created_at", "2015-09-24 17:43:44.830876"], ["updated_at", "2015-09-24 17:43:44.830876"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "photos" SET "vote" = ?, "updated_at" = ? WHERE "photos"."id" = ?  [["vote", "f"], ["updated_at", "2015-09-24 17:43:44.836931"], ["id", 16]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:44 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs0.4sqi.net/img/general/960x720/43090011_MUp55Q34cKGDOQYtWR6WS84DSVbBsX4OOiKEu6q2uDU.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs0.4sqi.net/img/general/960x720/43090011_MUp55Q34cKGDOQYtWR6WS84DSVbBsX4OOiKEu6q2uDU.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.7ms)
+  Rendered photos/_dislikes.html.erb (0.5ms)
+  Rendered photos/_likes.html.erb (0.4ms)
+  Rendered photos/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 393ms (Views: 114.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:54 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91ahOm7+Kbid/x25x3yo3vmdRCMdkq0Wa93qayZzTZ73lxt5olODpL2X6/gtpAoCbOpO54kgPMShyhU6WvceJw==", "url"=>"https://irs0.4sqi.net/img/general/960x720/43090011_MUp55Q34cKGDOQYtWR6WS84DSVbBsX4OOiKEu6q2uDU.jpg", "vote"=>"false", "commit"=>"Bad Picture"}
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1  [["url", "https://irs0.4sqi.net/img/general/960x720/43090011_MUp55Q34cKGDOQYtWR6WS84DSVbBsX4OOiKEu6q2uDU.jpg"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)  [["url", "https://irs0.4sqi.net/img/general/960x720/43090011_MUp55Q34cKGDOQYtWR6WS84DSVbBsX4OOiKEu6q2uDU.jpg"], ["created_at", "2015-09-24 17:43:54.673275"], ["updated_at", "2015-09-24 17:43:54.673275"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "photos" SET "vote" = ?, "updated_at" = ? WHERE "photos"."id" = ?[0m  [["vote", "f"], ["updated_at", "2015-09-24 17:43:54.678594"], ["id", 17]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:54 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/87401231_zD47MTXKpWmT0lzspD9n1Al-u2Oa9u_7yIKT90HCKQ0.jpg"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/960x720/87401231_zD47MTXKpWmT0lzspD9n1Al-u2Oa9u_7yIKT90HCKQ0.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.8ms)
+  Rendered photos/_dislikes.html.erb (0.5ms)
+  Rendered photos/_likes.html.erb (0.5ms)
+  Rendered photos/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 638ms (Views: 155.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 13:43:58 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W1zewbW4qAbnCThxR1TsQX9WlBfotw9/OvJ9RAOtUL5bnWSCeRUCGsdhzjCtjE6d6iGe03wFnq3w5YIVfykDBw==", "url"=>"https://irs2.4sqi.net/img/general/960x720/87401231_zD47MTXKpWmT0lzspD9n1Al-u2Oa9u_7yIKT90HCKQ0.jpg", "vote"=>"false", "commit"=>"Bad Picture"}
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/87401231_zD47MTXKpWmT0lzspD9n1Al-u2Oa9u_7yIKT90HCKQ0.jpg"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/87401231_zD47MTXKpWmT0lzspD9n1Al-u2Oa9u_7yIKT90HCKQ0.jpg"], ["created_at", "2015-09-24 17:43:58.813434"], ["updated_at", "2015-09-24 17:43:58.813434"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "photos" SET "vote" = ?, "updated_at" = ? WHERE "photos"."id" = ?  [["vote", "f"], ["updated_at", "2015-09-24 17:43:58.820470"], ["id", 18]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 13:43:58 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/960x719/1120091_0-KR78dz0LIq6BmwvhRTkeifouZRizZWTdMfJ-Na7iQ.jpg"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/960x719/1120091_0-KR78dz0LIq6BmwvhRTkeifouZRizZWTdMfJ-Na7iQ.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.6ms)
+  Rendered photos/_dislikes.html.erb (0.4ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 870ms (Views: 184.9ms | ActiveRecord: 0.2ms)
