@@ -20,8 +20,7 @@
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
  */
-@import url(https://fonts.googleapis.com/css?family=Kreon:400,700);
-@import "bootstrap-sprockets";
+
 @import 'bootstrap';
 
 /* Some Style from the Bootstrap Default Theme */
@@ -39,9 +38,3 @@ body {
 .theme-showcase > p > .btn {
   margin: 5px 0;
 }
-<<<<<<< HEAD
-
-$btn-default-color: #462118;
-$btn-default-lg: #ecf0f1;
-=======
->>>>>>> bad-picture
