@@ -5,6 +5,7 @@ class PhotosController < ApplicationController
     @dislike = @photo.dislikes.new
     @like = @photo.likes.new
   end
+
   def create
     if params["commit"] == "Bad Picture"
       @photo = Photo.find_or_create_by(url: params["url"])
@@ -12,14 +13,14 @@ class PhotosController < ApplicationController
       redirect_to root_path if @photo.save
     elsif params["commit"] == "Don't Want"
       @photo = Photo.find_or_create_by(url: params["url"])
-      @dislike = @photo.dislikes.create(photo_id: params["photo_id"])
+      @dislike = @photo.dislikes.create(photo_id: @photo.id)
       @dislike.save
-    redirect_to root_path
+      redirect_to root_path
     else params["commit"] == "Want"
       @photo = Photo.find_or_create_by(url: params["url"])
-      @like = @photo.likes.create(photo_id: params["photo_id"])
+      @like = @photo.likes.create(photo_id: @photo.id)
       @like.save
-    redirect_to root_path
+      redirect_to root_path
     end
   end
 end
