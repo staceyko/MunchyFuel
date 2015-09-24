@@ -14,9 +14,12 @@
     <%= @foursquare.phone_num %><br>
     <%= @foursquare.address %><br>
     <a href="<%=@foursquare.delivery_url%>">Order Delivery!</a><br>
+    <%= button_to "Nevermind", root_path, :class => "btn btn-default", :method => :get %>
   </div>
 </center>
 
+<div class="buttons">
 <%= render 'bad_picture' %>
 <%= render 'dislikes' %>
 <%= render 'likes' %>
+</div>

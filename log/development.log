@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2015-09-24 15:42:35 -0400
   [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by PhotosController#new as HTML
@@ -5155,3 +5156,64 @@ SystemExit - exit:
 
 
 Started POST "/__better_errors/efd3404397619455/variables" for 127.0.0.1 at 2015-09-24 16:17:47 -0400
+=======
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:12:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs2.4sqi.net/img/general/1920x1440/3590967_wDSumjkVmyrcigaXhfH-N4bnv7LjiKsvNyMcy_ljj3U.jpg"]]
+  Rendered photos/_bad_picture.html.erb (8.5ms)
+  Rendered photos/_dislikes.html.erb (0.7ms)
+  Rendered photos/_likes.html.erb (0.5ms)
+  Rendered photos/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 3860ms (Views: 3431.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2015-09-24 17:12:19 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahZQYSEyGpVAUaeuak7e5Ns2anWRM/sJHx2L8Oem+iMp2lUCYpD8rk0XE+AdHhEtBs1KXzg2d+kSPFRZ2UBvpw==", "url"=>"https://irs1.4sqi.net/img/general/720x540/13125390_hK4A_1tpfje_rErpnzo5P81yPmRVeY1yM2hxHW2KT9U.jpg", "commit"=>"Want"}
+  [1m[36mPhoto Load (0.2ms)[0m  [1mSELECT  "photos".* FROM "photos" WHERE "photos"."url" = ? LIMIT 1[0m  [["url", "https://irs1.4sqi.net/img/general/720x540/13125390_hK4A_1tpfje_rErpnzo5P81yPmRVeY1yM2hxHW2KT9U.jpg"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "photos" ("url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["url", "https://irs1.4sqi.net/img/general/720x540/13125390_hK4A_1tpfje_rErpnzo5P81yPmRVeY1yM2hxHW2KT9U.jpg"], ["created_at", "2015-09-24 21:12:19.633695"], ["updated_at", "2015-09-24 21:12:19.633695"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "likes" ("photo_id") VALUES (?)  [["photo_id", 27]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:12:19 -0400
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs1.4sqi.net/img/general/1920x1440/4168844_NegtGihSfW4A08V4kDtoa-DSjU49NYnazdk_e6LMy4I.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.9ms)
+  Rendered photos/_dislikes.html.erb (0.6ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 456ms (Views: 121.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/likes.self-54d19d6b305c11eba450dfc309bf24f4ea19bff82e41c3a70a93d47f69bd8976.js?body=1" for 127.0.0.1 at 2015-09-24 17:12:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:16:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs0.4sqi.net/img/general/960x720/115547_N8L9HXZBEkewLZUaVID7RIo3GaB4igIJk8OTzPs4o-Y.jpg"]]
+  Rendered photos/_bad_picture.html.erb (10.6ms)
+  Rendered photos/_dislikes.html.erb (0.7ms)
+  Rendered photos/_likes.html.erb (0.6ms)
+  Rendered photos/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 949ms (Views: 293.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:16:56 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/2828048_4v879QF8AzciIuzj9ShDl8d3zwvPsFQBUtdSloyp4IE.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.7ms)
+  Rendered photos/_dislikes.html.erb (0.3ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 542ms (Views: 141.9ms | ActiveRecord: 0.1ms)
+>>>>>>> master
