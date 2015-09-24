@@ -44,6 +44,7 @@ class FoursquareAPI
       @pic_url = create_photo_url(@stored_photo)
       if bad_photo(@pic_url)
         @venue = nil
+        @stored_photo = nil
         search_venues
       end
     end
@@ -61,10 +62,7 @@ class FoursquareAPI
   def bad_photo(input_url)
     if Photo.where(:url => input_url) != []
       x = Photo.where(:url => input_url)
-      if x.first.vote == false
-        byebug
-        return true
-      end
+      return true x.first.vote == false
     end
     false
   end
