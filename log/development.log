@@ -55436,3 +55436,245 @@ Started GET "/" for 127.0.0.1 at 2015-09-23 14:17:42 -0400
 Processing by IndexController#show as HTML
   Rendered index/show.html.erb (15.5ms)
 Completed 200 OK in 803ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:17:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (12.0ms)
+Completed 200 OK in 600ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:31:27 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 987ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2015-09-23 19:31:34 -0400
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run_machine'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `load'
+  spring (1.4.0) lib/spring/client/rails.rb:28:in `call'
+  spring (1.4.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.4.0) lib/spring/client.rb:28:in `run'
+  spring (1.4.0) bin/spring:49:in `<top (required)>'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `load'
+  spring (1.4.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `require'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.1ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.8ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.8ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.0ms)
+  Rendered /Users/georgetoothman/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (121.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:36:24 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (9.2ms)
+Completed 200 OK in 633ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:36:26 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 375ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:36:56 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 581ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:37:26 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.4ms)
+Completed 200 OK in 698ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:39:46 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 443ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:44:13 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 269ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:48:43 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.8ms)
+Completed 200 OK in 1055ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 19:48:58 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.5ms)
+Completed 200 OK in 798ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:07:20 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (4.3ms)
+Completed 200 OK in 756ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:09:18 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 1078ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:20:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (9.1ms)
+Completed 200 OK in 1863ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:21:01 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.7ms)
+Completed 200 OK in 1089ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:22:05 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 492ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:23:35 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.1ms)
+Completed 200 OK in 259ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:24:54 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.7ms)
+Completed 200 OK in 1104ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:33:27 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 631ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:39:26 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 403ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:39:36 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (10.5ms)
+Completed 200 OK in 516ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:39:39 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.1ms)
+Completed 200 OK in 253ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:41:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (8.8ms)
+Completed 200 OK in 1307ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:41:33 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.9ms)
+Completed 200 OK in 1484ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:44:10 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.3ms)
+Completed 200 OK in 859ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:44:13 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.9ms)
+Completed 200 OK in 191ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:44:15 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (1.0ms)
+Completed 200 OK in 540ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:49:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (9.2ms)
+Completed 200 OK in 645ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-23 20:49:39 -0400
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb (0.8ms)
+Completed 200 OK in 828ms (Views: 6.9ms | ActiveRecord: 0.0ms)

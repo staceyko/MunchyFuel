@@ -13,12 +13,17 @@
  *= require_tree ../../../vendor/assets/stylesheets/.
  *= require_tree .
  *= require_self
+ *= require 'show'
+ //= require 'show'
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
  */
-@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Kreon:400,700);
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+
 /* Some Style from the Bootstrap Default Theme */
 body {
   padding-top: 70px;
@@ -34,3 +39,6 @@ body {
 .theme-showcase > p > .btn {
   margin: 5px 0;
 }
+
+$btn-default-color: #462118;
+$btn-default-lg: #ecf0f1;
