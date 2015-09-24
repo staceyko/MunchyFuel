@@ -38,13 +38,30 @@ class FoursquareAPI
       if @stored_photo == nil
         @venue = nil
         search_venues
+      else
+        photo_id = @stored_photo["id"]
+        prefix = @stored_photo["prefix"]
+        width = @stored_photo["width"]
+        height = @stored_photo["height"]
+        suffix = @stored_photo["suffix"]
+        @pic_url = "#{prefix}#{width}x#{height}#{suffix}"
       end
     end
-    photo_id = @stored_photo["id"]
-    prefix = @stored_photo["prefix"]
-    width = @stored_photo["width"]
-    height = @stored_photo["height"]
-    suffix = @stored_photo["suffix"]
-    @pic_url = "#{prefix}#{width}x#{height}#{suffix}"
+    bad_photo
+    is_bad_photo_true?
+  end
+
+  def is_bad_photo_true?
+    if bad_photo == true
+      @pic_url = ""
+    end
+  end
+
+  def bad_photo
+    if Photo.where(:url => @pic_url) != []
+      x = Photo.where(:url => @pic_url)
+      return true if x.first.vote == false
+    end
+    false
   end
 end
