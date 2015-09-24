@@ -62,7 +62,7 @@ class FoursquareAPI
   def bad_photo(input_url)
     if Photo.where(:url => input_url) != []
       x = Photo.where(:url => input_url)
-      return true x.first.vote == false
+      return true if x.first.vote == false
     end
     false
   end
