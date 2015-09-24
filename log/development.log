@@ -38,3 +38,24 @@ Completed 200 OK in 456ms (Views: 121.9ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/assets/likes.self-54d19d6b305c11eba450dfc309bf24f4ea19bff82e41c3a70a93d47f69bd8976.js?body=1" for 127.0.0.1 at 2015-09-24 17:12:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:16:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.2ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs0.4sqi.net/img/general/960x720/115547_N8L9HXZBEkewLZUaVID7RIo3GaB4igIJk8OTzPs4o-Y.jpg"]]
+  Rendered photos/_bad_picture.html.erb (10.6ms)
+  Rendered photos/_dislikes.html.erb (0.7ms)
+  Rendered photos/_likes.html.erb (0.6ms)
+  Rendered photos/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 949ms (Views: 293.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 17:16:56 -0400
+Processing by PhotosController#new as HTML
+  [1m[36mPhoto Load (0.1ms)[0m  [1mSELECT "photos".* FROM "photos" WHERE "photos"."url" = ?[0m  [["url", "https://irs2.4sqi.net/img/general/960x720/2828048_4v879QF8AzciIuzj9ShDl8d3zwvPsFQBUtdSloyp4IE.jpg"]]
+  Rendered photos/_bad_picture.html.erb (0.7ms)
+  Rendered photos/_dislikes.html.erb (0.3ms)
+  Rendered photos/_likes.html.erb (0.3ms)
+  Rendered photos/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 542ms (Views: 141.9ms | ActiveRecord: 0.1ms)
