@@ -1,5 +1,7 @@
+<div id="bad_button">
 <%= form_for(@photo) do |f| %>
   <%= hidden_field_tag :url, @foursquare.pic_url %>
   <%= hidden_field_tag :vote, 'false' %>
   <%= f.submit "Bad Picture", class: "btn btn-danger" %>
 <% end %>
+</div>
