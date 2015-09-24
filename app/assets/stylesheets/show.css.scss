@@ -1,0 +1,11 @@
+body {
+ background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
+ background-size: 100% auto;
+ position: center; }
+
+  a { }
+    .buttons {
+      display: inline-block; }
+
+      .buttons .bad-picture {
+        postition: left; }

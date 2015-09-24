@@ -1,5 +1,5 @@
-class HomeController < ApplicationController
-  def index
+class HomeController < ActionController::Base
+  def show
     @foursquare = FoursquareAPI.new
   end
 end
