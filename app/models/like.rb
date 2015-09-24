@@ -1,3 +1,3 @@
 class Like < ActiveRecord::Base
-  belongs_to :foursquares
+  belongs_to :photo
 end
