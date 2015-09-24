@@ -6,7 +6,6 @@ class FoursquareAPI
   def initialize
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
     search_venues
-    pick_random_picture
     @phone_num = @venue["contact"]["formattedPhone"]
     @address = @venue["location"]["formattedAddress"]
     @name = @venue["name"]
@@ -26,42 +25,43 @@ class FoursquareAPI
       end
 
       get_venue_pictures
-      @venue = nil unless @photos["count"] >= 1
+      @venue = nil unless @photos.count >= 1
     end
   end
 
   def get_venue_pictures
-    @photos = @client.venue_photos(@venue["id"])
-  end
-
-  def pick_random_picture
-    while @stored_photo == nil
-      @stored_photo = @photos["items"].select{|picture| picture["width"] > picture["height"]}.sample
-      if @stored_photo == nil
-        @venue = nil
-        search_venues
-      else
-        photo_id = @stored_photo["id"]
-        prefix = @stored_photo["prefix"]
-        width = @stored_photo["width"]
-        height = @stored_photo["height"]
-        suffix = @stored_photo["suffix"]
-        @pic_url = "#{prefix}#{width}x#{height}#{suffix}"
-      end
-    end
-    bad_photo
-    is_bad_photo_true?
-  end
-
-  def is_bad_photo_true?
-    if bad_photo == true
+    @photos = @client.venue_photos(@venue["id"])["items"].select{|picture| picture["width"] > picture["height"]}
+    if @photos == []
+      search_venues
+    else
       pick_random_picture
     end
   end
 
-  def bad_photo
-    if Photo.where(:url => @pic_url) != []
-      x = Photo.where(:url => @pic_url)
+  def pick_random_picture
+    while @stored_photo == nil
+      @stored_photo = @photos.sample
+      @pic_url = create_photo_url(@stored_photo)
+      if bad_photo(@pic_url)
+        @venue = nil
+        @stored_photo = nil
+        search_venues
+      end
+    end
+  end
+
+  def create_photo_url(photo_object)
+    photo_id = photo_object["id"]
+    prefix = photo_object["prefix"]
+    width = photo_object["width"]
+    height = photo_object["height"]
+    suffix = photo_object["suffix"]
+    "#{prefix}#{width}x#{height}#{suffix}"
+  end
+
+  def bad_photo(input_url)
+    if Photo.where(:url => input_url) != []
+      x = Photo.where(:url => input_url)
       return true if x.first.vote == false
     end
     false
