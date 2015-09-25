@@ -9708,3 +9708,89 @@ Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde4
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 20:15:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-24 20:23:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  [1m[35mPhoto Load (0.1ms)[0m  SELECT "photos".* FROM "photos" WHERE "photos"."url" = ?  [["url", "https://irs1.4sqi.net/img/general/960x720/22314760_j1UosvIm0fXne7nndG2Ux8Yl6nrPt_p49rHC99Wh0DE.jpg"]]
+  Rendered photos/_bad_picture.html.erb (8.7ms)
+  Rendered photos/_dislikes.html.erb (0.7ms)
+  Rendered photos/_likes.html.erb (0.5ms)
+  Rendered photos/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 2137ms (Views: 285.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home.self-f3518479be63728a1078905df84bae4d1a5e55eeb7a5a8e2d9a8cff6bb51c00d.css?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/show.self-2decd342a2bc7aac2db3402caaf9c2d19d917ad9dace3515d663fd4bf61fd681.css?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/application.self-75419fe8ff9a2e31315e3ed1cc76966189c275e13d1cec8557812d049ce3bdd6.css?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-49100d650983a471242f420a2f71d4dd8a6c69a6edc428d681b9dfee968cfe55.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c8c6cef5d534d29ac36d3e51d0015b5206ea68ffd953bd6335d567d48ed20499.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-528b9bfca6e2fcf0c89e04259a423626f98ee01d30c7d107b90bc51b9eae5e27.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-0007e3253a4a64868a9a054ddf3d384f51e2b0cb384d9caf3075dff063b7d5b4.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-212c8fd7042f0232c3cf9250d14c24a1817a3426b077935a90053ba5d31788a6.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-caaed30f2e09d6c6b7ff7fb562255db128d86c15d675559af033e7e07a902426.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-59d0352830bf332010f1a0a28c18d873c4864ad7ad07cde3d4a7e577fcabd914.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-6c35000b288bb75bd072d33ccd61cf1d1c9606662379284833d2194218670db0.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-25ae20e1d99b37105bc6f6c8be0dbfc53e9abaf37b9bd1d006371fdaa8ca9f6c.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/geolocation.self-6a41143b6af6b8b213834a78342595e6588dd2179fbca4dbd972e7a0d09ff519.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/likes.self-92871adfd4056d46c7eba9a9f39ef65063dde8b113001c2f1609b45945226187.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/photos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/show.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-24 20:23:08 -0400
