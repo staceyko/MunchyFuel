@@ -8,11 +8,11 @@
   <%= analytics_init if Rails.env.production? %>
 </head>
 <body>
-  <%- unless @lat_lng %>
+  <% unless @lat_lng %>
     <script>
       getGeoLocation();
     </script>
-  <%- end %>
+  <% end %>
 
 <%= yield %>
 
