@@ -1,6 +1,7 @@
 <center>
   <style>
     body {
+     transition: background-image 1s ease-in-out;
      background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
      background-size: 100% auto;
      position: center;
@@ -9,6 +10,9 @@
       color: white;
     }
   </style>
+  <div class="background-image">
+
+  </div>
   <div id="restaurant">
     <a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a><br>
     <%= @foursquare.phone_num %><br>
