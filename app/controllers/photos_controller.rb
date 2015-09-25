@@ -1,6 +1,10 @@
 class PhotosController < ApplicationController
   def new
     @foursquare = FoursquareAPI.new(lat_lng)
+    lat = lat_lng[0]
+    lng = lat_lng[1]
+    geocoder = Geocoder.search("#{lat},#{lng}")[0]
+    @current_location = "#{geocoder.city}, #{geocoder.state}" if geocoder.present?
     @photo = Photo.new
     @dislike = @photo.dislikes.new
     @like = @photo.likes.new
