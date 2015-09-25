@@ -1,18 +1,24 @@
 <center>
   <style>
     body {
-     transition: background-image 1s ease-in-out;
      background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
      background-size: 100% auto;
      position: center;
     }
-    #restaurant {
-      color: white;
-    }
   </style>
-  <div class="background-image">
 
-  </div>
+  <nav class="navbar navbar-default">
+    <div id="location">
+      <%= submit_tag 'Refresh Location', :type => 'button' %>
+    </div>
+      <% if @current_location %>Current Location: <%= @current_location %><% end%>
+      <% if user_signed_in? %>
+        <%= link_to "Log out", destroy_user_session_path, method: "delete" %>
+      <% else %>
+        <%= link_to "Log in", new_user_session_path %>
+      <% end %>
+  </nav>
+
   <div id="restaurant">
     <a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a><br>
     <%= @foursquare.phone_num %><br>
@@ -35,12 +41,7 @@
 </center>
 
 <div class="buttons">
-<%= render 'bad_picture' %>
+<% if user_signed_in? %><%= render 'bad_picture' %><% end%>
 <%= render 'dislikes' %>
 <%= render 'likes' %>
-</div>
-
-<div id="location">
-  <%= submit_tag 'Refresh Location', :type => 'button' %><br>
-  Current Location: <%= @current_location %>
 </div>
