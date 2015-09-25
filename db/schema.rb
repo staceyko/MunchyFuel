@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150923145247) do
+ActiveRecord::Schema.define(version: 20150925150945) do
 
   create_table "dislikes", force: :cascade do |t|
     t.integer "photo_id"
@@ -22,10 +22,8 @@ ActiveRecord::Schema.define(version: 20150923145247) do
   end
 
   create_table "photos", force: :cascade do |t|
-    t.string   "url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.boolean  "vote"
+    t.string  "url"
+    t.boolean "vote"
   end
 
   create_table "users", force: :cascade do |t|
