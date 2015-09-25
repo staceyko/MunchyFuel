@@ -1,13 +1,8 @@
-// var lat;
-// var lon;
-//
-// navigator.geolocation.getCurrentPosition(function (position) {
-//   lat = position.coords.latitude;
-//   lon = position.coords.longitude;
-// });
-//   alert("creating ajax request");
-//   $.ajax({
-//       type: 'POST',
-//       url: "/photos/new",
-//       data: {"lat": lat, "lon": lon},
-//   });
+function getGeoLocation() {
+  navigator.geolocation.getCurrentPosition(setGeoCookie);
+}
+
+function setGeoCookie(position) {
+  var cookie_val = position.coords.latitude + "|" + position.coords.longitude;
+  document.cookie = "lat_lng=" + escape(cookie_val);
+}
