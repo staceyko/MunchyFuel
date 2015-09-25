@@ -70,5 +70,3 @@ group :production do
   gem 'google-analytics-rails'
   gem 'rails_12factor'
 end
-
-gem 'bootstrap-sass', '~> 3.1.1'
