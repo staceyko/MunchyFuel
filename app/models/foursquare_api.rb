@@ -3,7 +3,8 @@ class FoursquareAPI
 
   attr_reader :pic_url, :phone_num, :address, :name, :venue_id, :delivery_url
 
-  def initialize
+  def initialize(location = nil)
+    @location = location
     @client = Foursquare2::Client.new(:client_id => ENV["foursquare_id"], :client_secret => ENV["foursquare_secret"], :api_version => '20140806')
     search_venues
     @phone_num = @venue["contact"]["formattedPhone"]
@@ -16,25 +17,20 @@ class FoursquareAPI
   def search_venues
     while @venue == nil
       @random_food = return_food_array.sample
-      @result = @client.search_venues(:ll => '40.7048872,-74.0123737', :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 2000, :limit => 1)
-
-      if @result["venues"] != []
-        @venue = @result["venues"][0]
+      if @location != nil
+        @result = @client.search_venues(:ll => "#{@location[0]},#{@location[1]}", :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 2000, :limit => 1)
       else
-        next
+        @result = @client.search_venues(:near => "New York, NY", :query => @random_food, :categoryId => "4d4b7105d754a06374d81259", :radius => 2000, :limit => 1)
       end
 
+      @result["venues"] != [] ? @venue = @result["venues"][0] : next
       get_venue_pictures
     end
   end
 
   def get_venue_pictures
     @photos = @client.venue_photos(@venue["id"])["items"].select{|picture| picture["width"] > picture["height"]}
-    if @photos == []
-      @venue = nil
-    else
-      pick_random_picture
-    end
+    @photos == [] ? @venue = nil : pick_random_picture
   end
 
   def pick_random_picture
