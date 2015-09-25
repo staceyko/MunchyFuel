@@ -1,6 +1,6 @@
 class PhotosController < ApplicationController
   def new
-    @foursquare = FoursquareAPI.new
+    @foursquare = FoursquareAPI.new(lat_lng)
     @photo = Photo.new
     @dislike = @photo.dislikes.new
     @like = @photo.likes.new
