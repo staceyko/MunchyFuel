@@ -5,5 +5,4 @@ $('#like_button').click(function(e) {
     $('#restaurant').show();
     $('.buttons').hide();
   });
-
 });
