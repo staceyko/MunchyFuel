@@ -39,3 +39,8 @@
 <%= render 'dislikes' %>
 <%= render 'likes' %>
 </div>
+
+<div id="location">
+  <%= submit_tag 'Refresh Location', :type => 'button' %><br>
+  Current Location: <%= @current_location %>
+</div>
