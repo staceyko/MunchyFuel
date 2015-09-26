@@ -8,18 +8,19 @@
   </style>
 
   <nav class="navbar navbar-default">
-    <div id="location">
-      <%= button_tag( :class => "button_green") do %>
-        <i class="fa fa-location-arrow"></i>
-      <% end %>
-    </div>
       <% if @current_location %>Current Location: <%= @current_location %><% end%>
       <% if user_signed_in? %>
+      <br>
         <%= link_to "Log out", destroy_user_session_path, method: "delete" %>
       <% else %>
+      <br>
         <%= link_to "Log in", new_user_session_path %>
       <% end %>
   </nav>
+
+  <div id="location">
+    <button type="button" class="btn btn-md btn-white-line">&nbsp;&nbsp;Refresh Location <i class="fa fa-location-arrow"></i></button>
+  </div>
 
   <div id="restaurant">
     <a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a><br>
