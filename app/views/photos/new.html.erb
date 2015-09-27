@@ -1,50 +1,38 @@
+<style>
+  body {
+   background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
+   background-size: 100% auto;
+   position: center;
+  }
+</style>
+
 <center>
-  <style>
-    body {
-     background: url("<%=@foursquare.pic_url%>")  no-repeat fixed center;
-     background-size: 100% auto;
-     position: center;
-    }
-  </style>
-
-  <nav class="navbar navbar-default">
-      <% if @current_location %>Current Location: <%= @current_location %><% end%>
-      <% if user_signed_in? %>
-      <br>
-        <%= link_to "Log out", destroy_user_session_path, method: "delete" %>
-      <% else %>
-      <br>
-        <%= link_to "Log in", new_user_session_path %>
-      <% end %>
-  </nav>
-
-  <div id="location">
-    <button type="button" class="btn btn-md btn-white-line">&nbsp;&nbsp;Refresh Location <i class="fa fa-location-arrow"></i></button>
+  <div class="container light-color">
+    <div id="restaurant">
+      <h3><a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a></h3>
+      <%= @foursquare.phone_num %><br>
+      <%= @foursquare.address[0] %><br>
+      <%= @foursquare.address[1] %><br>
+      <a class="btn btn-xs btn-white" href="<%=@foursquare.delivery_url%>">Order Delivery</a>
+      <a class="btn btn-xs btn-white" href="<%=root_path%>">Nevermind</a>
+      <a href="https://foursquare.com/intent/venue.html" class="fourSq-widget">Save to Foursquare</a>
+      <script type='text/javascript'>
+        (function() {
+          window.___fourSq = {"uid":"102312955"};
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.src = 'http://platform.foursquare.com/js/widgets.js';
+          s.async = true;
+          var ph = document.getElementsByTagName('script')[0];
+          ph.parentNode.insertBefore(s, ph);
+        })();
+      </script>
+    </div>
   </div>
 
-  <div id="restaurant">
-    <a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a><br>
-    <%= @foursquare.phone_num %><br>
-    <%= @foursquare.address %><br>
-    <a href="<%=@foursquare.delivery_url%>">Order Delivery!</a><br>
-    <%= button_to "Nevermind", root_path, :class => "btn btn-default", :method => :get %>
-    <a href="https://foursquare.com/intent/venue.html" class="fourSq-widget" >Save to Foursquare</a>
-    <script type='text/javascript'>
-      (function() {
-        window.___fourSq = {"uid":"102312955"};
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.src = 'http://platform.foursquare.com/js/widgets.js';
-        s.async = true;
-        var ph = document.getElementsByTagName('script')[0];
-        ph.parentNode.insertBefore(s, ph);
-      })();
-    </script>
+  <div class="buttons">
+  <% if user_signed_in? %><%= render 'bad_picture' %><% end%>
+  <%= render 'dislikes' %>
+  <%= render 'likes' %>
   </div>
 </center>
-
-<div class="buttons">
-<% if user_signed_in? %><%= render 'bad_picture' %><% end%>
-<%= render 'dislikes' %>
-<%= render 'likes' %>
-</div>
