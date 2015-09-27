@@ -285,12 +285,11 @@ DEPENDENCIES
   bootswatch-rails
   byebug
   capybara
-  clarifai (~> 0.0.1)
+  clarifai (= 0.0.1)
   coffee-rails (~> 4.1.0)
   database_cleaner
   devise
   factory_girl_rails
-  faraday_middleware
   figaro
   font-awesome-rails
   foursquare2
