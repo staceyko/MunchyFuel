@@ -29,8 +29,8 @@ gem 'devise'
 gem 'geocoder'
 gem 'foursquare2'
 gem "figaro"
-gem "clarifai", "~> 0.0.1" 
-gem "faraday_middleware"
+gem 'clarifai', '0.0.1' 
+# gem "faraday_middleware"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
