@@ -3,8 +3,25 @@
 @import 'bootstrap';
 @import 'font-awesome';
 
-@import "style"; 
+@import "style";
 @import "ionicons";
 @import "plugin/jPushMenu";
 @import "plugin/animate";
 @import "jquery-ui";
+
+/* Absolute Center CSS Spinner */
+.fa-spin {
+  display: inline-block;
+  animation: anim-rotate 2s infinite linear;
+    width:100px;
+    color: #F0F0F0;
+    // height: 100px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    text-align:center;
+    margin-left: -25px;
+    margin-top: -100px;
+    z-index:2;
+    overflow: auto;
+}

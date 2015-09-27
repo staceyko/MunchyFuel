@@ -26,7 +26,7 @@
     <%= @foursquare.phone_num %><br>
     <%= @foursquare.address %><br>
     <a href="<%=@foursquare.delivery_url%>">Order Delivery!</a><br>
-    <%= button_to "Nevermind", root_path, :class => "btn btn-default", :method => :get %>
+    <%= button_to "Nevermind", root_path, :id => "nvm_button", :class => "btn btn-default", :method => :get %>
     <a href="https://foursquare.com/intent/venue.html" class="fourSq-widget" >Save to Foursquare</a>
     <script type='text/javascript'>
       (function() {
