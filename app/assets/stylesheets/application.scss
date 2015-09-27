@@ -1,4 +1,3 @@
-
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 @import 'font-awesome';
@@ -9,7 +8,6 @@
 @import "plugin/animate";
 @import "jquery-ui";
 
-/* Absolute Center CSS Spinner */
 .fa-spin {
   display: inline-block;
   animation: anim-rotate 2s infinite linear;
