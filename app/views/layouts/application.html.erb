@@ -7,6 +7,7 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   <%= analytics_init if Rails.env.production? %>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
   <%= render 'layouts/header' %>
@@ -22,6 +23,7 @@
       getGeoLocation();
     </script>
   <% end %>
+  <i class="fa fa-spinner fa-spin fa-4x fa-fw margin-bottom"></i></i>
 
 <%= yield %>
 
