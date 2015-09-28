@@ -29,31 +29,10 @@
       </script>
     </div>
   </div>
+</center>
 
-<<<<<<< HEAD
-  <div id="restaurant">
-    <a href="http://foursquare.com/v/<%=@foursquare.venue_id%>"><%= @foursquare.name %></a><br>
-    <%= @foursquare.phone_num %><br>
-    <%= @foursquare.address %><br>
-    <a href="<%=@foursquare.delivery_url%>">Order Delivery!</a><br>
-    <%= button_to "Nevermind", root_path, :id => "nvm_button", :class => "btn btn-default", :method => :get %>
-    <a href="https://foursquare.com/intent/venue.html" class="fourSq-widget" >Save to Foursquare</a>
-    <script type='text/javascript'>
-      (function() {
-        window.___fourSq = {"uid":"102312955"};
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.src = 'http://platform.foursquare.com/js/widgets.js';
-        s.async = true;
-        var ph = document.getElementsByTagName('script')[0];
-        ph.parentNode.insertBefore(s, ph);
-      })();
-    </script>
-=======
   <div class="buttons">
   <% if user_signed_in? %><%= render 'bad_picture' %><% end%>
+  <%= render 'likes' %><br>
   <%= render 'dislikes' %>
-  <%= render 'likes' %>
->>>>>>> 6ff812f9ccae6bcd540e32deddd570e1eebc6126
   </div>
-</center>
