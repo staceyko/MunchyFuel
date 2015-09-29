@@ -30,7 +30,7 @@ module MunchyFuel
     # config.i18n.default_locale = :de
     
     # accomplishes same thing as requiring rails_12factor in gemfile
-    config.serve_static_assets = true
+    # config.serve_static_assets = true
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
