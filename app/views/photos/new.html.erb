@@ -13,7 +13,7 @@
       <%= @foursquare.phone_num %><br>
       <%= @foursquare.address[0] %><br>
       <%= @foursquare.address[1] %><br>
-      <a class="btn btn-xs btn-white" href="<%=@foursquare.delivery_url%>">Order Delivery</a>
+      <% if @foursquare.delivery_url %> <a class="btn btn-xs btn-white" href="<%=@foursquare.delivery_url%>">Order Delivery</a> <% end %>
       <a class="btn btn-xs btn-white" href="<%=root_path%>">Nevermind</a>
       <a href="https://foursquare.com/intent/venue.html" class="fourSq-widget">Save to Foursquare</a>
       <script type='text/javascript'>
@@ -32,7 +32,7 @@
 </center>
 
   <div class="buttons">
-  <% if user_signed_in? %><%= render 'bad_picture' %><% end%>
+  <% if user_signed_in? %><%= render 'bad_picture' %><% end %><br>
   <%= render 'likes' %><br>
   <%= render 'dislikes' %>
   </div>
