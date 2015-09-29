@@ -1,18 +1,8 @@
 /**
   *= require_self
-  *= require photo.scss
+  *= require photo.css
   *= require_tree .
 */
-
-@import "bootstrap-sprockets";
-@import 'bootstrap';
-@import 'font-awesome';
-
-@import "style";
-@import "ionicons";
-@import "plugin/jPushMenu";
-@import "plugin/animate";
-@import "jquery-ui";
 
 .fa-spin {
   display: inline-block;
