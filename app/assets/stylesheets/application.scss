@@ -1,13 +1,6 @@
-/**
-  *= require_self
-  *= require photo.scss
-  *= require_tree .
-*/
-
 @import "bootstrap-sprockets";
 @import 'bootstrap';
-@import "font-awesome-sprockets"
-@import 'font-awesome';
+
 
 @import "style";
 @import "ionicons";
