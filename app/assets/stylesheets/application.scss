@@ -1,13 +1,13 @@
 @import "bootstrap-sprockets";
 @import 'bootstrap';
-
+@import 'font-awesome';
 
 @import "style";
 @import "ionicons";
 @import "plugin/jPushMenu";
 @import "plugin/animate";
 @import "jquery-ui";
-@import url('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css');
+
 
 .fa-spin {
   display: inline-block;
