@@ -7,7 +7,7 @@
 
     $(window).load(function () {
         // ----------------------------------------------------------------------------------------------------------------------->
-        // SITE LOADER                     ||----------- 
+        // SITE LOADER                     ||-----------
         // ----------------------------------------------------------------------------------------------------------------------->
         $('#loader').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -18,7 +18,7 @@
 
 
     // ---------------------------------------------------------------------------------------------------------------------------->
-    // GENERAL SCRIPTS FOR ALL PAGES    ||----------- 
+    // GENERAL SCRIPTS FOR ALL PAGES    ||-----------
     // ---------------------------------------------------------------------------------------------------------------------------->
 
     $(document).ready(function () {
@@ -28,16 +28,16 @@
 
     function openSite() {
         fullScreenSlider();
-        header();
+        // header();
         scroll();
         winResize();
-        pushmenu();
-        pluginElement();
-        sliderHero();
-        sliderAll();
-        containerGridMasonry();
-        scrollCallbackEle();
-        shortcodeElements();
+        // pushmenu();
+        // pluginElement();
+        // sliderHero();
+        // sliderAll();
+        // containerGridMasonry();
+        // scrollCallbackEle();
+        // shortcodeElements();
 
     };
 
@@ -216,7 +216,7 @@ function sliderAll() {
         navigation: true,  // Show next and prev buttons
         pagination: true,  // Show pagination buttons
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        
+
     });
 
     // Image Slider
@@ -476,7 +476,7 @@ function containerGridMasonry() {
                 },
             });
         });
-        
+
         // bind filter button click
         $('.container-filter').on('click', '.categories', function () {
             var filterValue = $(this).attr('data-filter');
@@ -591,29 +591,29 @@ function shortcodeElements() {
     };
 
     //Parallax plugin Js Function element
-    $.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 500
-    });
+    // $.stellar({
+    //     horizontalScrolling: false,
+    //     verticalOffset: 500
+    // });
 
 
     // Portfolio Lightbox Popup Elements
-    lightbox();
-    function lightbox() {
-        $(".cbox-gallary1").colorbox({
-            rel: 'gallary',
-            maxWidth: "95%",
-            maxHeight: "95%"
-
-        });
-        $(".cbox-iframe").colorbox({
-            iframe: true,
-            maxWidth: "95%",
-            maxHeight: "95%",
-            innerWidth: 640,
-            innerHeight: 390
-        });
-    };
+    // lightbox();
+    // function lightbox() {
+    //     $(".cbox-gallary1").colorbox({
+    //         rel: 'gallary',
+    //         maxWidth: "95%",
+    //         maxHeight: "95%"
+    //
+    //     });
+    //     $(".cbox-iframe").colorbox({
+    //         iframe: true,
+    //         maxWidth: "95%",
+    //         maxHeight: "95%",
+    //         innerWidth: 640,
+    //         innerHeight: 390
+    //     });
+    // };
 
     // Skills Progressbar Elements
     skillsProgressBar();
@@ -626,7 +626,7 @@ function shortcodeElements() {
     };
 
     // Tooltip
-    $(".tipped").tipper();
+    // $(".tipped").tipper();
 
     //Counter
     $('.counter').each(function () {
@@ -673,27 +673,24 @@ jqueryUi();
 function jqueryUi() {
 
     // Tab Function
-    $(function () {
-        $(".tabs").tabs();
-    });
+    // $(function () {
+    //     $(".tabs").tabs();
+    // });
 
     // Price Filter Slider
-    $(function () {
-        $("#range-slider").slider({
-            range: true,
-            min: 0,
-            max: 500,
-            values: [0, 300],
-            slide: function (event, ui) {
-                $(".price-amount-from").text("$" + ui.values[0]);
-                $(".price-amount-to").text("$" + ui.values[1]);
-
-            }
-        });
-        $(".price-amount-from").text("$" + $("#range-slider").slider("values", 0));
-        $(".price-amount-to").text("$" + $("#range-slider").slider("values", 1));
-    });
+    // $(function () {
+    //     $("#range-slider").slider({
+    //         range: true,
+    //         min: 0,
+    //         max: 500,
+    //         values: [0, 300],
+    //         slide: function (event, ui) {
+    //             $(".price-amount-from").text("$" + ui.values[0]);
+    //             $(".price-amount-to").text("$" + ui.values[1]);
+    //
+    //         }
+    //     });
+    //     $(".price-amount-from").text("$" + $("#range-slider").slider("values", 0));
+    //     $(".price-amount-to").text("$" + $("#range-slider").slider("values", 1));
+    // });
 };
-
-
-

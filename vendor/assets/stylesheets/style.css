@@ -3699,7 +3699,7 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
         #preloader .loader .loader-img {
-            background: url("../img/loading.GIF");
+            background-image: image-url("loading.GIF");
             width: 60px;
             height: 60px;
             display: block;
