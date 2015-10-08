@@ -46,7 +46,7 @@
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
-    cursor:;
+    cursor: default;
 }
 
 .owl-controls {
