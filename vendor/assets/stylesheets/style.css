@@ -538,7 +538,7 @@ button, input, textarea, select {
     font-size: 12px;
 }
 
-    input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
+    input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], textarea, select {
         appearance: none;
         -webkit-appearance: none;
         border: 1px solid #ddd;
