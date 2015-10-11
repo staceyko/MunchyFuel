@@ -1,8 +1,8 @@
-<div class="modal-dialog modal-md container">
+<div class="modal-dialog modal-md">
   <div class="modal-content">
     <div class="modal-header">
       <button class="close" data-dismiss="modal">x</button>
-      <h2>Edit <%= resource_name.to_s.humanize %></h2>
+      <h2 class="dark">Edit <%= resource_name.to_s.humanize %></h2>
     </div>
     <div class="modal-body">
       <ul class="errors"></ul>
@@ -19,7 +19,7 @@
       <% end %>
 
       <div class="field">
-        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+        <%= f.label :password %> <i class="dark">(leave blank if you don't want to change it)</i><br />
         <%= f.password_field :password, autocomplete: "off" %>
       </div>
 
@@ -34,15 +34,14 @@
       </div>
 
       <div class="actions">
-        <%= f.submit "Update" %>
+        <%= f.submit "Update", class: "btn btn-md btn-black-line" %>
       </div>
       <% end %>
-
-      <h3>Cancel my account</h3>
-
-      <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
-
-      <%= link_to "Back", :back %>
+      <br>
+      <div class="modal-footer">
+        <%= button_to "Cancel my account", registration_path(resource_name), class: "btn btn-md btn-color-line", data: { confirm: "Are you sure?" }, method: :delete %>
+      </div>
+      <%#= link_to "Back", :back %>
     </div>
   </div>
 </div>
